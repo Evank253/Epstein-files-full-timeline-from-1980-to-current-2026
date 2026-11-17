@@ -43,3 +43,16 @@
 ## F. Evidence acquisition standard
 
 For each official PDF: preserve original bytes; compute SHA-256 on the acquired bytes; record official locator, retrieval timestamp, file size, and page count; inspect page images; retain OCR as a derived artifact; record exact page references for each claim. No acquisition or hash is claimed until performed.
+
+
+## H. Current research leads and source controls
+
+- The UK High Court's COPA v Wright judgment, [2024] EWHC 1198 (Ch), is a primary legal source for the court's findings on Wright and for the early Satoshi chronology. Official PDF: https://www.judiciary.uk/wp-content/uploads/2024/05/COPA-v-Wright-Judgment.pdf.
+- The judgment summarizes the precursor systems and records Satoshi's August 2008 contact with Adam Back and Wei Dai, the October 31, 2008 white-paper announcement, and subsequent launch chronology. Cite exact paragraphs when recording individual events.
+- The public intellectual lineage includes David Chaum's digital-cash work, Adam Back's Hashcash, Wei Dai's b-money, Nick Szabo's Bit Gold, and Hal Finney's reusable proof-of-work work. Their contributions must be distinguished; none of these facts alone identifies Satoshi.
+- A searchable compilation of Satoshi's known writings can be used to discover candidate messages, but each message must be checked against its original mailing-list, forum, email, or repository source before being treated as primary evidence.
+- The specific viral Epstein-to-Maxwell email image claiming Satoshi was working is excluded as fabricated; it cannot be used as an investigative lead for authorship.
+
+## I. First-pass working conclusion
+
+At this stage, the creator's real-world identity remains unresolved in the public record. The investigation has a defined way to test claims and an initial set of authenticated chronological anchors, but it does not yet have evidence sufficient to identify a candidate. Epstein-related records are one potential source family, not the assumed answer.
