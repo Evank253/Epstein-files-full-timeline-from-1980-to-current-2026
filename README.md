@@ -12,6 +12,11 @@ Dedicated repository for the public-record investigation. MANIFEX, MANIFEX ART, 
 - Do not infer guilt, intent, intelligence affiliation or criminal participation from association, graph proximity or co-occurrence.
 - Retain duplicate source copies and connect them through duplicate-cluster records; do not delete originals.
 
+## Separate investigation workstreams
+
+- `investigations/bitcoin/` — Bitcoin ecosystem investigation, with its own scope, findings, timeline, evidence ledger and open questions.
+- `research/INTER-INVESTIGATION-LINK-REGISTER-001.md` — parent-case register for explicit links between workstreams. Separate evidence trails remain separate unless a source is materially relevant to both.
+
 ## Initial investigation package
 - `research/TIMELINE-001.csv` — 33 preliminary events, each linked to evidence IDs.
 - `research/RELATIONSHIP-GRAPH-001.json` — typed entity graph; edges reference evidence records.
