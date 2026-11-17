@@ -1,0 +1,455 @@
+{
+  "investigation_id": "EPSTEIN-PUBLIC-RECORD-INVESTIGATION-001",
+  "schema_version": "1.0",
+  "nodes": [
+    {
+      "id": "PERSON-EPSTEIN",
+      "label": "Jeffrey Epstein",
+      "type": "person"
+    },
+    {
+      "id": "PERSON-WEXNER",
+      "label": "Leslie Wexner",
+      "type": "person"
+    },
+    {
+      "id": "PERSON-MEISTER",
+      "label": "Bob Meister",
+      "type": "person"
+    },
+    {
+      "id": "ORG-WEXNER-OFFICE",
+      "label": "Wexner family office",
+      "type": "organization"
+    },
+    {
+      "id": "ORG-WEXNER-FOUNDATION",
+      "label": "Wexner Foundation",
+      "type": "organization"
+    },
+    {
+      "id": "ORG-HARVARD",
+      "label": "Harvard University",
+      "type": "organization"
+    },
+    {
+      "id": "ORG-HARVARD-PED",
+      "label": "Program for Evolutionary Dynamics",
+      "type": "organization"
+    },
+    {
+      "id": "ORG-SSE",
+      "label": "Stockholm School of Economics",
+      "type": "organization"
+    },
+    {
+      "id": "ORG-BBB-GIRLS",
+      "label": "BBB Girls",
+      "type": "organization_or_program"
+    },
+    {
+      "id": "ORG-MIT-MEDIA-LAB",
+      "label": "MIT Media Lab",
+      "type": "organization"
+    },
+    {
+      "id": "ORG-USAO-SDFL",
+      "label": "USAO Southern District of Florida",
+      "type": "government_office"
+    },
+    {
+      "id": "ORG-PALM-BEACH-COURT",
+      "label": "Palm Beach County court",
+      "type": "court"
+    },
+    {
+      "id": "ORG-DEUTSCHE-BANK",
+      "label": "Deutsche Bank",
+      "type": "financial_institution"
+    },
+    {
+      "id": "ORG-SOUTHERN-TRUST",
+      "label": "Southern Trust Company Inc.",
+      "type": "company"
+    },
+    {
+      "id": "ORG-SOUTHERN-FINANCIAL",
+      "label": "Southern Financial LLC",
+      "type": "company"
+    },
+    {
+      "id": "ORG-BUTTERFLY-TRUST",
+      "label": "Butterfly Trust",
+      "type": "trust"
+    },
+    {
+      "id": "ORG-NYDFS",
+      "label": "New York State Department of Financial Services",
+      "type": "regulator"
+    },
+    {
+      "id": "ORG-MCC",
+      "label": "Metropolitan Correctional Center",
+      "type": "facility"
+    },
+    {
+      "id": "ORG-BOP",
+      "label": "Federal Bureau of Prisons",
+      "type": "agency"
+    },
+    {
+      "id": "ORG-NYC-OCME",
+      "label": "NYC Office of Chief Medical Examiner",
+      "type": "agency"
+    },
+    {
+      "id": "ORG-DOJ-OIG",
+      "label": "DOJ Office of Inspector General",
+      "type": "oversight_agency"
+    },
+    {
+      "id": "ORG-FBI",
+      "label": "FBI",
+      "type": "agency"
+    },
+    {
+      "id": "ORG-DOJ",
+      "label": "Department of Justice",
+      "type": "agency"
+    },
+    {
+      "id": "ORG-DOJ-EFTA-LIBRARY",
+      "label": "DOJ Epstein Files Library",
+      "type": "repository"
+    },
+    {
+      "id": "ORG-HOUSE-OVERSIGHT",
+      "label": "House Oversight Committee",
+      "type": "legislative_committee"
+    },
+    {
+      "id": "ORG-DDF",
+      "label": "Democracy Defenders Fund",
+      "type": "organization"
+    },
+    {
+      "id": "ORG-DDC",
+      "label": "U.S. District Court for D.C.",
+      "type": "court"
+    },
+    {
+      "id": "ORG-PHANG",
+      "label": "Phang v. Blanche",
+      "type": "court_case"
+    },
+    {
+      "id": "ORG-DC-CIRCUIT",
+      "label": "D.C. Circuit",
+      "type": "court"
+    },
+    {
+      "id": "ORG-DOE-CVRA-CASE",
+      "label": "Doe v. United States No. 9:08-cv-80736",
+      "type": "court_case"
+    },
+    {
+      "id": "ORG-SD-FL-COURT",
+      "label": "U.S. District Court for S.D. Florida",
+      "type": "court"
+    },
+    {
+      "id": "ORG-11TH-CIRCUIT",
+      "label": "Eleventh Circuit",
+      "type": "court"
+    },
+    {
+      "id": "ORG-DOJ-OPR",
+      "label": "DOJ Office of Professional Responsibility",
+      "type": "oversight_office"
+    },
+    {
+      "id": "ORG-FEDERAL-REGISTER",
+      "label": "Federal Register",
+      "type": "publication"
+    }
+  ],
+  "edges": [
+    {
+      "id": "REL-001",
+      "from": "PERSON-MEISTER",
+      "to": "PERSON-WEXNER",
+      "type": "introduced_epstein_to_wexner",
+      "evidence": [
+        "EVD-001"
+      ],
+      "status": "committee_report_attributed",
+      "event": "EVT-001",
+      "interpretation": "House report attributes to Wexner that Bob Meister introduced Epstein to him; underlying testimony not acquired."
+    },
+    {
+      "id": "REL-002",
+      "from": "PERSON-WEXNER",
+      "to": "PERSON-EPSTEIN",
+      "type": "employed_as_family_office_manager",
+      "evidence": [
+        "EVD-001"
+      ],
+      "status": "committee_report_attributed",
+      "event": "EVT-002",
+      "interpretation": "Underlying employment records not acquired."
+    },
+    {
+      "id": "REL-003",
+      "from": "PERSON-WEXNER",
+      "to": "PERSON-EPSTEIN",
+      "type": "granted_POA_and_trustee_role",
+      "evidence": [
+        "EVD-001"
+      ],
+      "status": "committee_report_attributed",
+      "event": "EVT-003",
+      "interpretation": "Underlying instruments not acquired."
+    },
+    {
+      "id": "REL-004",
+      "from": "PERSON-EPSTEIN",
+      "to": "ORG-HARVARD",
+      "type": "donations_reported",
+      "evidence": [
+        "EVD-001"
+      ],
+      "status": "committee_report_attributed",
+      "event": "EVT-004",
+      "interpretation": "Gift records need reconciliation."
+    },
+    {
+      "id": "REL-005",
+      "from": "PERSON-EPSTEIN",
+      "to": "ORG-SSE",
+      "type": "payments_reported",
+      "evidence": [
+        "EVD-001"
+      ],
+      "status": "committee_report_attributed",
+      "event": "EVT-005",
+      "interpretation": "Payment records not acquired."
+    },
+    {
+      "id": "REL-006",
+      "from": "PERSON-EPSTEIN",
+      "to": "ORG-MIT-MEDIA-LAB",
+      "type": "donations_reported",
+      "evidence": [
+        "EVD-001"
+      ],
+      "status": "committee_report_attributed",
+      "event": "EVT-006",
+      "interpretation": "Gift records not acquired."
+    },
+    {
+      "id": "REL-007",
+      "from": "ORG-USAO-SDFL",
+      "to": "PERSON-EPSTEIN",
+      "type": "entered_NPA_with",
+      "evidence": [
+        "EVD-002"
+      ],
+      "status": "court_record_excerpt",
+      "event": "EVT-007",
+      "interpretation": "Full NPA and addenda needed."
+    },
+    {
+      "id": "REL-008",
+      "from": "PERSON-EPSTEIN",
+      "to": "ORG-PALM-BEACH-COURT",
+      "type": "pleaded_guilty_in",
+      "evidence": [
+        "EVD-003"
+      ],
+      "status": "court_record",
+      "event": "EVT-008",
+      "interpretation": "Certified plea/judgment needed."
+    },
+    {
+      "id": "REL-009",
+      "from": "ORG-DEUTSCHE-BANK",
+      "to": "ORG-SOUTHERN-TRUST",
+      "type": "opened_accounts_for",
+      "evidence": [
+        "EVD-004"
+      ],
+      "status": "regulator_order",
+      "event": "EVT-011",
+      "interpretation": "Ownership/control not established here."
+    },
+    {
+      "id": "REL-010",
+      "from": "ORG-DEUTSCHE-BANK",
+      "to": "ORG-SOUTHERN-FINANCIAL",
+      "type": "opened_accounts_for",
+      "evidence": [
+        "EVD-004"
+      ],
+      "status": "regulator_order",
+      "event": "EVT-011",
+      "interpretation": "Ownership/control not established here."
+    },
+    {
+      "id": "REL-011",
+      "from": "ORG-DEUTSCHE-BANK",
+      "to": "ORG-BUTTERFLY-TRUST",
+      "type": "opened_accounts_for",
+      "evidence": [
+        "EVD-004"
+      ],
+      "status": "regulator_order",
+      "event": "EVT-013",
+      "interpretation": "Trust records not acquired."
+    },
+    {
+      "id": "REL-012",
+      "from": "ORG-NYDFS",
+      "to": "ORG-DEUTSCHE-BANK",
+      "type": "issued_consent_order_against",
+      "evidence": [
+        "EVD-004"
+      ],
+      "status": "regulator_order",
+      "event": "EVT-024",
+      "interpretation": "Regulatory order, not criminal judgment against all mentioned."
+    },
+    {
+      "id": "REL-013",
+      "from": "ORG-MCC",
+      "to": "PERSON-EPSTEIN",
+      "type": "held_in_custody",
+      "evidence": [
+        "EVD-005"
+      ],
+      "status": "official_OIG_report",
+      "event": "EVT-016",
+      "interpretation": "Custody relationship only."
+    },
+    {
+      "id": "REL-014",
+      "from": "ORG-BOP",
+      "to": "PERSON-EPSTEIN",
+      "type": "custody_supervision_responsibility",
+      "evidence": [
+        "EVD-005"
+      ],
+      "status": "official_OIG_report",
+      "event": "EVT-026",
+      "interpretation": "OIG documented failures; no homicide inference."
+    },
+    {
+      "id": "REL-015",
+      "from": "ORG-NYC-OCME",
+      "to": "PERSON-EPSTEIN",
+      "type": "determined_manner_of_death",
+      "evidence": [
+        "EVD-005"
+      ],
+      "status": "official_OIG_report_attribution",
+      "event": "EVT-021",
+      "interpretation": "Manner reported as suicide."
+    },
+    {
+      "id": "REL-016",
+      "from": "ORG-DOJ-OIG",
+      "to": "ORG-BOP",
+      "type": "investigated_custody_and_supervision",
+      "evidence": [
+        "EVD-005"
+      ],
+      "status": "official_OIG_report",
+      "event": "EVT-026",
+      "interpretation": "OIG scope focused on BOP."
+    },
+    {
+      "id": "REL-017",
+      "from": "ORG-FBI",
+      "to": "PERSON-EPSTEIN",
+      "type": "investigated_cause_of_death",
+      "evidence": [
+        "EVD-005"
+      ],
+      "status": "official_OIG_report_attribution",
+      "event": "EVT-026",
+      "interpretation": "OIG reports FBI found no criminality pertaining to death."
+    },
+    {
+      "id": "REL-018",
+      "from": "ORG-DOJ-OIG",
+      "to": "ORG-DOJ",
+      "type": "announced_EFTA_compliance_audit",
+      "evidence": [
+        "EVD-007"
+      ],
+      "status": "official_audit_initiation",
+      "event": "EVT-028",
+      "interpretation": "Audit initiation is not findings."
+    },
+    {
+      "id": "REL-019",
+      "from": "ORG-HOUSE-OVERSIGHT",
+      "to": "PERSON-EPSTEIN",
+      "type": "published_majority_staff_report_about",
+      "evidence": [
+        "EVD-012"
+      ],
+      "status": "committee_report",
+      "event": "EVT-033",
+      "interpretation": "Attribute findings to committee majority staff."
+    },
+    {
+      "id": "REL-020",
+      "from": "ORG-DOJ",
+      "to": "ORG-DOJ-EFTA-LIBRARY",
+      "type": "publishes_records_through",
+      "evidence": [
+        "EVD-006"
+      ],
+      "status": "official_agency_statement",
+      "event": "EVT-027",
+      "interpretation": "Production counts not unique records."
+    },
+    {
+      "id": "REL-021",
+      "from": "ORG-DDF",
+      "to": "ORG-DOJ",
+      "type": "FOIA_litigation_against",
+      "evidence": [
+        "EVD-009"
+      ],
+      "status": "court_opinion",
+      "event": "EVT-030",
+      "interpretation": "Expedited processing ruling only."
+    },
+    {
+      "id": "REL-022",
+      "from": "ORG-PHANG",
+      "to": "ORG-DOJ",
+      "type": "EFTA_APA_litigation_against",
+      "evidence": [
+        "EVD-010",
+        "EVD-011"
+      ],
+      "status": "mixed_official_and_secondary",
+      "event": "EVT-031",
+      "interpretation": "Nov 9 details secondary pending signed orders."
+    },
+    {
+      "id": "REL-023",
+      "from": "ORG-DOJ-OPR",
+      "to": "ORG-DOJ",
+      "type": "reviewed_prior_prosecution_handling",
+      "evidence": [
+        "EVD-013"
+      ],
+      "status": "official_DOJ_report",
+      "event": "EVT-025",
+      "interpretation": "OPR summary distinguishes poor judgment from misconduct."
+    }
+  ]
+}
