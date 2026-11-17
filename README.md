@@ -43,3 +43,13 @@ The Bitcoin workstream remains analytically separate while sharing the same case
 ## Parallel investigation assignments
 
 - `research/INVESTIGATION-AGENT-ASSIGNMENTS-001.md` — defines the continuing main Epstein investigation (EP-01), the separate Bitcoin investigation (BTC-01), and independent blind-review and cross-examination roles. This is an assignment protocol, not a claim that autonomous agents have been launched.
+
+
+## Three-track investigation and documentary evidence standard
+
+- `research/THREE-TRACK-INVESTIGATION-AND-RECIPROCAL-CROSS-EXAMINATION-001.md` defines EP-01, BTC-01, and the read-only BTC-RB-01 Bitcoin reconstruction cross-examination track.
+- `research/DOCUMENTARY-EVIDENCE-ACQUISITION-AND-TIMELINE-LINKAGE-001.md` defines original-document acquisition, hashes, page locators, claim linkage, and evidence states.
+- `investigations/bitcoin/REBUILD-CROSS-EXAMINATION-REGISTER-001.csv` records prior Bitcoin rebuild findings for independent challenge without modifying the rebuild repository.
+- Both investigation timelines are append-only and link events to source/evidence identifiers and exact document locators. A discovery note or URL is not treated as an acquired original document.
+
+The Bitcoin rebuild repository has not been positively identified: a repository named `Evank253/Bitcoin` was found but GitHub reports it as empty. No changes were made there. Prior BFBI-001, TMR-001, and MUT-001 results remain recorded as prior-work leads pending retrieval and independent reproduction.
