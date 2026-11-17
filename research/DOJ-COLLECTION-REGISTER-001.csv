@@ -1,0 +1,19 @@
+collection_id,collection_type,collection_name,official_listing_url,discovery_status,enumeration_status,acquisition_status,notes
+DOJ-LIB-ROOT-001,landing_page,Epstein Library,https://www.justice.gov/epstein,LOCATED,NOT_APPLICABLE,NOT_STARTED,Official library landing page
+DOJ-DISCLOSURES-001,hub,DOJ Disclosures,https://www.justice.gov/epstein/doj-disclosures,LOCATED,TOP_LEVEL_ENUMERATED,NOT_STARTED,Lists 12 EFTA datasets plus Court Records FOIA and Prior DOJ Disclosures
+DOJ-EFTA-DS01,dataset,Data Set 1,https://www.justice.gov/epstein/doj-disclosures/data-set-1-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-9 plus next/last
+DOJ-EFTA-DS02,dataset,Data Set 2,https://www.justice.gov/epstein/doj-disclosures/data-set-2-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-9 plus next/last
+DOJ-EFTA-DS03,dataset,Data Set 3,https://www.justice.gov/epstein/doj-disclosures/data-set-3-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-2 plus next/last
+DOJ-EFTA-DS04,dataset,Data Set 4,https://www.justice.gov/epstein/doj-disclosures/data-set-4-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-4 plus next/last
+DOJ-EFTA-DS05,dataset,Data Set 5,https://www.justice.gov/epstein/doj-disclosures/data-set-5-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-3 plus next/last
+DOJ-EFTA-DS06,dataset,Data Set 6,https://www.justice.gov/epstein/doj-disclosures/data-set-6-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination controls not visible in captured response; inspect
+DOJ-EFTA-DS07,dataset,Data Set 7,https://www.justice.gov/epstein/doj-disclosures/data-set-7-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination controls not visible in captured response; inspect
+DOJ-EFTA-DS08,dataset,Data Set 8,https://www.justice.gov/epstein/doj-disclosures/data-set-8-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-9 plus next/last
+DOJ-EFTA-DS09,dataset,Data Set 9,https://www.justice.gov/epstein/doj-disclosures/data-set-9-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-9 plus next/last
+DOJ-EFTA-DS10,dataset,Data Set 10,https://www.justice.gov/epstein/doj-disclosures/data-set-10-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-9 plus next/last
+DOJ-EFTA-DS11,dataset,Data Set 11,https://www.justice.gov/epstein/doj-disclosures/data-set-11-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-9 plus next/last
+DOJ-EFTA-DS12,dataset,Data Set 12,https://www.justice.gov/epstein/doj-disclosures/data-set-12-files,LOCATED,FIRST_PAGE_OBSERVED,NOT_STARTED,Pagination observed pages 1-4 plus next/last
+DOJ-COURT-001,collection,Court Records,https://www.justice.gov/epstein/doj-disclosures,TOP_LEVEL_LOCATED,51_CASE_COLLECTIONS_LISTED,NOT_STARTED,Every case collection's files still require enumeration
+DOJ-FOIA-001,collection,FOIA,https://www.justice.gov/epstein/doj-disclosures,TOP_LEVEL_LOCATED,4_SUBCOLLECTIONS_LISTED,NOT_STARTED,CBP FBI BOP Florida
+DOJ-PRIOR-001,collection,Prior DOJ Disclosures,https://www.justice.gov/epstein/doj-disclosures,TOP_LEVEL_LOCATED,4_SUBCOLLECTIONS_LISTED,NOT_STARTED,First Phase BOP Video Maxwell Proffer Memoranda and Correspondence
+DOJ-SEARCH-001,search,Search Full Epstein Library,https://www.justice.gov/epstein/search,LOCATED,NOT_APPLICABLE,NOT_STARTED,Search is supplemental and cannot establish completeness
