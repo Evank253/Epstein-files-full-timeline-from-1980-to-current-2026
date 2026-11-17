@@ -39,3 +39,7 @@ This is a preliminary evidence-linked reconstruction. The initial register ident
 - `research/INTER-INVESTIGATION-LINK-REGISTER-001.md` — explicit cross-links between the Bitcoin workstream and the broader Epstein case.
 
 The Bitcoin workstream remains analytically separate while sharing the same case repository. Cross-links are recorded only where a source is relevant to both investigations. The existence of a link does not establish causation, control, authorship, wrongdoing, or coordination.
+
+## Parallel investigation assignments
+
+- `research/INVESTIGATION-AGENT-ASSIGNMENTS-001.md` — defines the continuing main Epstein investigation (EP-01), the separate Bitcoin investigation (BTC-01), and independent blind-review and cross-examination roles. This is an assignment protocol, not a claim that autonomous agents have been launched.
