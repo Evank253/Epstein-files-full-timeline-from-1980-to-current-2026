@@ -99,3 +99,26 @@ Do not state or imply that Epstein:
 - Lead Stories fact check: https://leadstories.com/hoax-alert/2026/02/fact-check-epstein-satoshi-bitcoin-little-digital-gold-mine.html
 
 **Acquisition caveat:** URLs above are source locators. This initial commit does not claim that original PDF bytes were downloaded, hashed, or visually inspected.
+
+
+## 8. Independent investigation into Bitcoin's creator
+
+The identity question is a legitimate research objective, but it must be investigated independently of Epstein's financial connections. The Bitcoin-specific workstream will therefore have two parallel tracks:
+
+- **Epstein intersection track:** determine whether Epstein-related records establish any connection to early Bitcoin development, developers, funding, or Satoshi communications.
+- **Independent origin track:** reconstruct the technical and documentary history of Bitcoin's creation, regardless of whether Epstein appears in that history.
+
+The public record currently establishes that Satoshi Nakamoto is a pseudonym and that the person or people behind it created the white paper and initial software. The actual civil identity or identities have not been established publicly. The UK High Court's 2024 COPA v Wright judgment rejected Craig Wright's claim and declared that he was not Satoshi, did not create Bitcoin, and did not author the initial software. That judgment excludes Wright as the creator; it does not identify the actual creator. See the official judgment: https://www.judiciary.uk/wp-content/uploads/2024/05/COPA-v-Wright-Judgment.pdf.
+
+The origin investigation will reconstruct:
+1. The intellectual and technical precursors: public-key cryptography, digital cash, Chaumian e-cash, Hashcash, b-money, Bit Gold, timestamp chains, reusable proof-of-work, and related work.
+2. The first authenticated Satoshi communications, including the August 2008 correspondence with Adam Back and Wei Dai, the October 31, 2008 white-paper announcement, and the early 2009 software release and network launch.
+3. The initial codebase, design decisions, commit history, build artifacts, protocol changes, and handoff of project maintenance.
+4. The known communication network among Satoshi, early developers, cryptographers, mailing-list participants, and later maintainers.
+5. Candidate claims and counterclaims, tested against authenticated records rather than online speculation.
+
+The 2024 judgment's historical summary describes Satoshi contacting Adam Back in August 2008 about a draft and a Hashcash citation, then contacting Wei Dai about b-money; it records the white-paper announcement on October 31, 2008. See paragraphs 22–23 of the judgment. These are important chronological anchors, not proof of Satoshi's civil identity.
+
+The investigation will not name a living person as Satoshi based on linguistic resemblance, time zone, technical ability, ideological alignment, association, or circumstantial timing. Strong attribution would require decisive evidence such as a verifiable signature from a key reliably tied to Satoshi, authenticated contemporaneous records, or equivalent direct evidence independently corroborated.
+
+This independent line may generate useful leads about the technical origins of Bitcoin even if it never identifies the person behind the pseudonym. It must remain analytically separate from the Epstein inquiry so that Epstein's later investments or contacts do not bias the search.
