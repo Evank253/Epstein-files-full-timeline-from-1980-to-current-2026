@@ -34,3 +34,12 @@
 ## Change log
 
 - 2026-11-17: Created the Bitcoin ecosystem workstream as a separate folder within the same case repository and established this cross-investigation register. Initial links are leads, not claims of proven coordination.
+
+
+## Additional boundary: creator-identification research
+
+The Bitcoin investigation now includes an independent origin/authorship track. This track is not presumed to intersect with Epstein. The only cross-links to the parent case should be created when an Epstein source artifact directly bears on Bitcoin's origin, early development, a developer, or a relevant financial transaction.
+
+The UK High Court's 2024 COPA v Wright judgment is an independent Bitcoin-origin source, not an Epstein-case source. It belongs in the Bitcoin evidence ledger and must not be represented as evidence of Epstein's involvement. The judgment excludes Craig Wright as Satoshi but does not identify the actual creator.
+
+The research question is broader than Epstein: can authenticated historical, technical, cryptographic, and documentary evidence identify the person or people behind Satoshi Nakamoto? Keep this question open, test competing explanations, and avoid naming candidates without decisive evidence.
