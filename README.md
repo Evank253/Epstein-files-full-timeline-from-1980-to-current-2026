@@ -28,3 +28,14 @@ Dedicated repository for the public-record investigation. MANIFEX, MANIFEX ART, 
 
 ## Status warning
 This is a preliminary evidence-linked reconstruction. The initial register identifies source locations; it does not mean the original files have been downloaded, hashed or independently verified. Source artifact rows are marked `URL_IDENTIFIED_NOT_CAPTURED`. No fabricated file hashes are included.
+
+## Separate linked investigation workstreams
+
+- `investigations/bitcoin/README.md` — Bitcoin investigation folder and separation rules.
+- `investigations/bitcoin/INVESTIGATION-001.md` — Epstein–Bitcoin ecosystem investigation baseline and initial findings.
+- `investigations/bitcoin/TIMELINE-001.csv` — separate Bitcoin-specific chronology.
+- `investigations/bitcoin/EVIDENCE-LEDGER-001.csv` — Bitcoin source inventory and verification status.
+- `investigations/bitcoin/OPEN-QUESTIONS-001.md` — open questions, including independent Satoshi Nakamoto origin research.
+- `research/INTER-INVESTIGATION-LINK-REGISTER-001.md` — explicit cross-links between the Bitcoin workstream and the broader Epstein case.
+
+The Bitcoin workstream remains analytically separate while sharing the same case repository. Cross-links are recorded only where a source is relevant to both investigations. The existence of a link does not establish causation, control, authorship, wrongdoing, or coordination.
