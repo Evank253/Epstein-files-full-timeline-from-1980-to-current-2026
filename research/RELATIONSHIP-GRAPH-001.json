@@ -1009,19 +1009,19 @@
       ],
       "status": "litigation_copy_examined_preliminary",
       "event": "EVT-052",
-      "interpretation": "2007-09-06 $6.5m debit and 2007-09-25 $100k debit rows route via Citibank to Bear Stearns & Co; beneficiary is Epstein in first row and redacted in second."
+      "interpretation": "Spreadsheet rows include a $6.5m CHIPS debit on 2007-09-06 and a $100k CHIPS debit on 2007-09-25 naming Bear Stearns & Co as account/counterparty; settlement unverified."
     },
     {
       "id": "REL-052",
-      "from": "ORG-JPMORGAN-CHASE",
-      "to": "ORG-MELLON-BANK",
+      "from": "ORG-MELLON-BANK",
+      "to": "ORG-JPMORGAN-CHASE",
       "type": "incoming_credit_rail_named_in_JPM_spreadsheet",
       "evidence": [
         "EVD-029"
       ],
       "status": "litigation_copy_examined_preliminary",
       "event": "EVT-052",
-      "interpretation": "Multiple credits in Aug/Sep 2007 describe Mellon Bank rail, Financial Trust Company as B/O, and Epstein as beneficiary."
+      "interpretation": "Multiple Fedwire credit rows name Mellon Bank N.A., Financial Trust Company Inc as B/O, and Jeffrey E. Epstein as beneficiary; upstream source account and settlement independently unverified."
     },
     {
       "id": "REL-053",
@@ -1097,3 +1097,4 @@
     }
   ]
 }
+EVD-029,CLM-030,SRC-BEAR-015,"S.D.N.Y. Document 174-1 Exhibit 1, PDF pp. 6–9, Bates JPM-SDNYLIT-00269655–00269660; publicly accessible extracted table text","JPMorgan spreadsheet attached to Oct. 19 2007 internal email contains dated rows on an Epstein-named JPMorgan Private Bank account, including debits routed through Citibank to Bear Stearns & Co and Mellon Bank Fedwire credits naming Financial Trust Company as B/O and Jeffrey E. Epstein as beneficiary","LITIGATION_EXHIBIT_COPY_EXAMINED;EXTRACTED_TABLE_TEXT","SOURCE_ACCESSED_PUBLIC_COPY;NATIVE_WORKBOOK_AND_RECEIVING_BANK_CONFIRMATIONS_NOT_ACQUIRED","ART-031","Rows partially redacted; only partial transcription; no independent settlement confirmation; court's twenty-$100k characterization is separate and not assumed for all rows."
