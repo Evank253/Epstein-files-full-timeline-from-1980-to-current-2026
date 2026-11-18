@@ -458,6 +458,18 @@
       "label": "James E. Cayne",
       "type": "person",
       "qualification": "Appears in the account-executive field on multiple International Charitable Interests statement pages within EFTA00200535; exact role, authority and relationship to account require original-page verification."
+    },
+    {
+      "id": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "label": "International Charitable Interests II (statement account label)",
+      "type": "account_label",
+      "qualification": "Appears as a distinct statement address-block label in EFTA00200535 and EFTA00198956; not established as a separate legal entity or beneficial owner."
+    },
+    {
+      "id": "PERSON-JEANIE-BRENNAN",
+      "label": "Jeanie Brennan",
+      "type": "person",
+      "qualification": "Named in the attention/address block on multiple Bear Stearns International Charitable Interests statement extracts; this does not establish account ownership, authority or beneficial interest."
     }
   ],
   "edges": [
@@ -1373,8 +1385,8 @@
     },
     {
       "id": "REL-076",
-      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
-      "to": "ORG-BEAR-STEARNs-BROKERAGE",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
       "type": "brokerage_account_servicing_named_in_statement_headers",
       "evidence": [
         "EVD-035",
@@ -1385,11 +1397,11 @@
       ],
       "status": "third_party_ocr_extract_preliminary",
       "event": "EVT-056",
-      "interpretation": "Bear, Stearns & Co Inc is named as the servicing broker on the statement headers; account ownership and legal account holder remain unestablished."
+      "interpretation": "EFTA00198956 uses International Charitable Interests II in its statement header; account identity and legal status remain unestablished."
     },
     {
       "id": "REL-077",
-      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
       "to": "ORG-FINANCIAL-TRUST-COMPANY",
       "type": "trustee_designation_in_statement_header",
       "evidence": [
@@ -1399,7 +1411,7 @@
       ],
       "status": "third_party_ocr_extract_preliminary",
       "event": "EVT-058",
-      "interpretation": "Financial Trust Co Inc appears as TTEE in account address blocks; fiduciary capacity, legal identity and beneficiaries require primary records."
+      "interpretation": "EFTA00198956 uses International Charitable Interests II in its statement header; account identity and legal status remain unestablished."
     },
     {
       "id": "REL-078",
@@ -1417,14 +1429,39 @@
     {
       "id": "REL-079",
       "from": "PERSON-JAMES-CAYNE",
-      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
       "type": "account_executive_field_named_in_statement",
       "evidence": [
         "EVD-036"
       ],
       "status": "third_party_ocr_extract_preliminary",
       "event": "EVT-057",
-      "interpretation": "James E. Cayne appears in the account-executive field on EFTA00200535 statement pages; the field's meaning, authority and exact dates require original page verification."
+      "interpretation": "EFTA00200535 pages identify International Charitable Interests II as the statement account label, with Bear, Stearns & Co Inc servicing the account; no ownership/beneficial owner conclusion."
+    },
+    {
+      "id": "REL-080",
+      "from": "PERSON-JAMES-CAYNE",
+      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "type": "account_executive_field_named_in_statement",
+      "evidence": [
+        "EVD-036"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-057",
+      "interpretation": "James E. Cayne appears in the account-executive field on EFTA00200535 statement pages; field does not establish authority or transaction approval."
+    },
+    {
+      "id": "REL-081",
+      "from": "PERSON-JEANIE-BRENNAN",
+      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "type": "attention_contact_named_in_statement_address_block",
+      "evidence": [
+        "EVD-036",
+        "EVD-038"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-057",
+      "interpretation": "Jeanie Brennan appears in the attention/address block; no ownership, trustee, signatory or authority inference."
     }
   ]
 }
