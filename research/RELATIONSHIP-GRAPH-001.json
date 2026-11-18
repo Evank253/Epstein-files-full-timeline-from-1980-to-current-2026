@@ -308,6 +308,18 @@
       "label": "Arthur Middlemiss",
       "type": "person",
       "qualification": "U.S. Virgin Islands Statement of Material Facts (S.D.N.Y. Document 246, July 26 2023) identifies him as Bear AML Officer responsible for responding to 2007 subpoena, citing sealed Exhibit 125 at JPM-SDNYLIT-00373076; underlying exhibit not acquired."
+    },
+    {
+      "id": "PERSON-DENNIS-BLOCK",
+      "label": "Dennis Block",
+      "type": "person",
+      "qualification": "Named addressee of August 15 2007 USAO letter concerning Bear Stearns subpoena; exact representation scope and role in records response not established."
+    },
+    {
+      "id": "ORG-CADWALADER-WICKERSHAM-TAFT",
+      "label": "Cadwalader, Wickersham & Taft LLP",
+      "type": "organization",
+      "qualification": "Law firm named in address block for Dennis Block in EFTA00189873; representation and engagement scope not independently established by this letter alone."
     }
   ],
   "edges": [
@@ -852,6 +864,30 @@
       "status": "litigation_citation_only",
       "event": "EVT-044",
       "interpretation": "Verify underlying Exhibit 125 and employment records."
+    },
+    {
+      "id": "REL-046",
+      "from": "ORG-USAO-SDFL",
+      "to": "PERSON-DENNIS-BLOCK",
+      "type": "sent_parent_subsidiary_subpoena_scope_letter_to",
+      "evidence": [
+        "EVD-023"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-046",
+      "interpretation": "Letter addressee only; do not infer full counsel role or records custody."
+    },
+    {
+      "id": "REL-047",
+      "from": "PERSON-DENNIS-BLOCK",
+      "to": "ORG-CADWALADER-WICKERSHAM-TAFT",
+      "type": "address_block_affiliation",
+      "evidence": [
+        "EVD-023"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-046",
+      "interpretation": "Firm affiliation shown in letter address block; engagement scope unverified."
     }
   ]
 }
