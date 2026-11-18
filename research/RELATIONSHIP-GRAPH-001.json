@@ -338,6 +338,54 @@
       "label": "Ira Zicherman",
       "type": "person",
       "qualification": "Named as account executive/investment professional in extracted Bear Stearns statement headers; precise role and dates require original statement verification."
+    },
+    {
+      "id": "ORG-CITIBANK",
+      "label": "Citibank",
+      "type": "financial_institution_reference",
+      "qualification": "bank named in JPM spreadsheet transaction routing descriptions; exact receiving account and settlement not independently confirmed."
+    },
+    {
+      "id": "ORG-MELLON-BANK",
+      "label": "Mellon Bank, N.A.",
+      "type": "financial_institution_reference",
+      "qualification": "bank named in JPM spreadsheet as source/rail for credits; settlement and successor/record custodian details require bank records."
+    },
+    {
+      "id": "ORG-SOVEREIGN-BANK",
+      "label": "Sovereign Bank",
+      "type": "financial_institution_reference",
+      "qualification": "bank named as Fedwire intermediary/rail in JPM spreadsheet; exact beneficiary account and settlement not independently confirmed."
+    },
+    {
+      "id": "ORG-BANK-OF-AMERICA",
+      "label": "Bank of America, N.A.",
+      "type": "financial_institution_reference",
+      "qualification": "bank named in JPM spreadsheet transaction routing descriptions; exact receiving account and settlement not independently confirmed."
+    },
+    {
+      "id": "ORG-HSBC-BANK-USA",
+      "label": "HSBC Bank USA",
+      "type": "financial_institution_reference",
+      "qualification": "bank named in JPM spreadsheet transaction routing descriptions; exact receiving account and settlement not independently confirmed."
+    },
+    {
+      "id": "ORG-FIRSTBANK-PUERTO-RICO",
+      "label": "FirstBank Puerto Rico",
+      "type": "financial_institution_reference",
+      "qualification": "bank named in JPM spreadsheet transaction routing descriptions; exact receiving account and settlement not independently confirmed."
+    },
+    {
+      "id": "ORG-WELLS-FARGO",
+      "label": "Wells Fargo, N.A.",
+      "type": "financial_institution_reference",
+      "qualification": "bank named in JPM spreadsheet transaction routing descriptions; exact receiving account and settlement not independently confirmed."
+    },
+    {
+      "id": "ORG-BANK-OF-NOVA-SCOTIA",
+      "label": "The Bank of Nova Scotia",
+      "type": "financial_institution_reference",
+      "qualification": "bank named in JPM spreadsheet book-transfer description; exact account and settlement not independently confirmed."
     }
   ],
   "edges": [
@@ -950,6 +998,102 @@
       "status": "source_accessed_preliminary",
       "event": "EVT-047",
       "interpretation": "Name appears in extracted statement header; employment/title and exact account responsibility require verification."
+    },
+    {
+      "id": "REL-051",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-CITIBANK",
+      "type": "transaction_rail_named_in_JPM_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-052",
+      "interpretation": "2007-09-06 $6.5m debit and 2007-09-25 $100k debit rows route via Citibank to Bear Stearns & Co; beneficiary is Epstein in first row and redacted in second."
+    },
+    {
+      "id": "REL-052",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-MELLON-BANK",
+      "type": "incoming_credit_rail_named_in_JPM_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-052",
+      "interpretation": "Multiple credits in Aug/Sep 2007 describe Mellon Bank rail, Financial Trust Company as B/O, and Epstein as beneficiary."
+    },
+    {
+      "id": "REL-053",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-SOVEREIGN-BANK",
+      "type": "transaction_rail_named_in_JPM_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-052",
+      "interpretation": "2007-09-17 $100k Fedwire debit row names Sovereign Bank and Martin G Weinberg PC IOLTA."
+    },
+    {
+      "id": "REL-054",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-BANK-OF-AMERICA",
+      "type": "transaction_rail_named_in_JPM_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-052",
+      "interpretation": "2007-10-12 $100k CHIPS debit row routes via Bank of America; beneficiary Alan M Dershowitz shown, additional fields redacted."
+    },
+    {
+      "id": "REL-055",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-HSBC-BANK-USA",
+      "type": "transaction_rail_named_in_JPM_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-052",
+      "interpretation": "2007-10-11 and 2007-09-10 $100k CHIPS debit rows name Gerald B Lefcourt PC IOLA account."
+    },
+    {
+      "id": "REL-056",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-FIRSTBANK-PUERTO-RICO",
+      "type": "transaction_rail_named_in_JPM_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-052",
+      "interpretation": "Multiple 2007 Fedwire debits route via FirstBank PR to LSJ LLC and Lafayette Contractors LLC."
+    },
+    {
+      "id": "REL-057",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-WELLS-FARGO",
+      "type": "transaction_rail_named_in_JPM_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-052",
+      "interpretation": "2007-10-09 and 2007-09-24 debits route via Wells Fargo to Zorro Development Corporation."
+    },
+    {
+      "id": "REL-058",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-BANK-OF-NOVA-SCOTIA",
+      "type": "book_transfer_institution_named_in_JPM_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-052",
+      "interpretation": "2007-10-03 $90k book-transfer debit names Bank of Nova Scotia, St Thomas; originator text references Epstein."
     }
   ]
 }
