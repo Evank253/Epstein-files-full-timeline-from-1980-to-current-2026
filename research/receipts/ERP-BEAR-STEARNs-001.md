@@ -165,3 +165,8 @@ Direct review of public Document 174-1 Exhibit 1 shows the email cover at PDF p.
 
 **Cross-source assessment:** the May 29 2007 JPMorgan spreadsheet debit $12,976,977.85 to Island Global Yachting Ltd, reference purchase of interest in American Yacht Harbor, aligns with audited statement date/50% sale and 2014 draft recitals naming Epstein as purchaser. This is not yet complete transaction verification: acquire executed membership agreement, amended LLC agreement, side letter, membership ledger, signed settlement, wire settlement confirmation and IGY receiving-bank records. Do not equate $12,976,977.85 with final purchase price or infer that the draft was executed.
 
+
+## ERP-001 extension — parent loan and equity conversion
+
+**EVD-034 / EFTA00611194 notes 1, 4(c), 5:** IGY-AYH borrowed $25,271,765 from Island Global Yachting Ltd to purchase American Yacht Harbor; aggregate purchase price $25,238,326. The parent loan was partly converted to equity May 29 2007 and the remainder converted to a note payable to a bank Aug 23 2007. The exact equity-conversion amount is not stated in the extracted passage. Do not equate the $12,976,977.85 JPMorgan wire with the equity conversion or the acquisition price without underlying ledger, loan, wire and membership records.
+
