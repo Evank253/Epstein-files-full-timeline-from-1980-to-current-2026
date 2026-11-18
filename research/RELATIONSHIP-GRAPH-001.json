@@ -434,6 +434,24 @@
       "label": "Wachovia Bank",
       "type": "financial_entity_reference",
       "qualification": "Named in the transaction spreadsheet as Fedwire rail for Island Global Yachting debit and Island Fund 1 LLC credit; receiving/originating settlement not independently confirmed."
+    },
+    {
+      "id": "ORG-IGY-AYH-ST-THOMAS-HOLDINGS",
+      "label": "IGY-AYH St. Thomas Holdings, LLC",
+      "type": "organization_reference",
+      "qualification": "U.S. Virgin Islands LLC formed Dec. 5 2006 as wholly owned subsidiary of Island Global Yachting Ltd; 2007 audited statements say acquired American Yacht Harbor Jan. 18 2007 and a 50% passive member interest was sold to one parent investor May 29 2007. 2014 revised draft agreement identifies Epstein as purchaser; execution of draft not established."
+    },
+    {
+      "id": "ORG-MOF-VI-LIMITED-PARTNERSHIP",
+      "label": "MOF VI Limited Partnership",
+      "type": "organization_reference",
+      "qualification": "Named seller in Jan. 18 2007 American Yacht Harbor closing statement; legal entity and transaction documented in EFTA00594382."
+    },
+    {
+      "id": "ORG-ISLAND-GLOBAL-YACHTING-FACILITIES",
+      "label": "Island Global Yachting Facilities Ltd.",
+      "type": "organization_reference",
+      "qualification": "Named in 2014 revised draft settlement agreement as parent/party and counterparty to Epstein's May 29 2007 membership interest purchase agreement; draft execution status unresolved."
     }
   ],
   "edges": [
@@ -1250,6 +1268,78 @@
       "status": "litigation_copy_examined_preliminary",
       "event": "EVT-053",
       "interpretation": "Sept. 20 2007 $74,155 CHIPS debit; job references shown."
+    },
+    {
+      "id": "REL-068",
+      "from": "ORG-ISLAND-GLOBAL-YACHTING",
+      "to": "ORG-IGY-AYH-ST-THOMAS-HOLDINGS",
+      "type": "parent_subsidiary_relationship_in_audited_2007_statements",
+      "evidence": [
+        "EVD-031"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-054",
+      "interpretation": "Audited 2007 financial statements state IGY-AYH St Thomas Holdings LLC was formed as wholly owned subsidiary of Island Global Yachting Ltd on Dec 5 2006."
+    },
+    {
+      "id": "REL-069",
+      "from": "ORG-IGY-AYH-ST-THOMAS-HOLDINGS",
+      "to": "ORG-AMERICAN-YACHT-HARBOR",
+      "type": "owned_and_operated_marina_facility",
+      "evidence": [
+        "EVD-031"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-054",
+      "interpretation": "Audited 2007 financial statements say company acquired American Yacht Harbor Jan 18 2007 and owned/operated marina and retail facility."
+    },
+    {
+      "id": "REL-070",
+      "from": "ORG-ISLAND-GLOBAL-YACHTING-FACILITIES",
+      "to": "ORG-IGY-AYH-ST-THOMAS-HOLDINGS",
+      "type": "membership_interest_purchase_counterparty_in_revised_draft",
+      "evidence": [
+        "EVD-033"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-054",
+      "interpretation": "2014 revised draft states IGYF and Epstein entered May 29 2007 membership interest purchase agreement; draft not proof of execution."
+    },
+    {
+      "id": "REL-071",
+      "from": "PERSON-EPSTEIN",
+      "to": "ORG-IGY-AYH-ST-THOMAS-HOLDINGS",
+      "type": "50_percent_member_interest_purchaser_recited_in_revised_draft",
+      "evidence": [
+        "EVD-033"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-054",
+      "interpretation": "Revised draft recites Epstein purchased 50% membership interest May 29 2007; audited statements independently state 50% passive interest sold to one parent investor, but do not name investor."
+    },
+    {
+      "id": "REL-072",
+      "from": "ORG-ISLAND-GLOBAL-YACHTING",
+      "to": "ORG-IGY-AYH-ST-THOMAS-HOLDINGS",
+      "type": "parent_company_as_of_2007",
+      "evidence": [
+        "EVD-031"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-054",
+      "interpretation": "Audited financial statements state subsidiary relationship."
+    },
+    {
+      "id": "REL-073",
+      "from": "ORG-MOF-VI-LIMITED-PARTNERSHIP",
+      "to": "ORG-IGY-AYH-ST-THOMAS-HOLDINGS",
+      "type": "seller_to_buyer_in_january_2007_marina_closing",
+      "evidence": [
+        "EVD-032"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-054",
+      "interpretation": "Jan. 18 2007 closing statement identifies MOF VI LP as seller and IGY-AYH as buyer for American Yacht Harbor; distinct from May 29 member-interest purchase."
     }
   ]
 }
