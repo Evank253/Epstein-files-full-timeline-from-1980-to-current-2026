@@ -320,6 +320,24 @@
       "label": "Cadwalader, Wickersham & Taft LLP",
       "type": "organization",
       "qualification": "Law firm named in address block for Dennis Block in EFTA00189873; representation and engagement scope not independently established by this letter alone."
+    },
+    {
+      "id": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "label": "International Charitable Interests",
+      "type": "account_label",
+      "qualification": "Appears on multiple Bear Stearns statement extracts and is described in account address blocks with Financial Trust Company as trustee. Treat as account label, not established incorporated entity or beneficial owner."
+    },
+    {
+      "id": "ORG-FINANCIAL-TRUST-COMPANY",
+      "label": "Financial Trust Company",
+      "type": "organization_reference",
+      "qualification": "Appears as TTEE/trustee designation in Bear Stearns statement extracts; exact legal entity, jurisdiction, fiduciary capacity and beneficiaries require primary records."
+    },
+    {
+      "id": "PERSON-IRA-ZICHERMAN",
+      "label": "Ira Zicherman",
+      "type": "person",
+      "qualification": "Named as account executive/investment professional in extracted Bear Stearns statement headers; precise role and dates require original statement verification."
     }
   ],
   "edges": [
@@ -888,6 +906,50 @@
       "status": "source_accessed_preliminary",
       "event": "EVT-046",
       "interpretation": "Firm affiliation shown in letter address block; engagement scope unverified."
+    },
+    {
+      "id": "REL-048",
+      "from": "ORG-BEAR-STEARNs-BROKERAGE",
+      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "type": "statement_servicing_or_account_header",
+      "evidence": [
+        "EVD-024",
+        "EVD-025",
+        "EVD-026",
+        "EVD-027",
+        "EVD-028"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-047",
+      "interpretation": "Statements are indexed under this label; no ownership or beneficial interest inferred."
+    },
+    {
+      "id": "REL-049",
+      "from": "ORG-FINANCIAL-TRUST-COMPANY",
+      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "type": "trustee_designation_in_account_header",
+      "evidence": [
+        "EVD-024",
+        "EVD-025",
+        "EVD-027",
+        "EVD-028"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-047",
+      "interpretation": "TTEE designation appears in OCR; verify exact legal identity and fiduciary capacity from original records."
+    },
+    {
+      "id": "REL-050",
+      "from": "PERSON-IRA-ZICHERMAN",
+      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "type": "account_executive_named_in_statement_header",
+      "evidence": [
+        "EVD-024",
+        "EVD-027"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-047",
+      "interpretation": "Name appears in extracted statement header; employment/title and exact account responsibility require verification."
     }
   ]
 }
