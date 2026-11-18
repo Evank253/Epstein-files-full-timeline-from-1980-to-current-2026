@@ -470,6 +470,18 @@
       "label": "Jeanie Brennan",
       "type": "person",
       "qualification": "Named in the attention/address block on multiple Bear Stearns International Charitable Interests statement extracts; this does not establish account ownership, authority or beneficial interest."
+    },
+    {
+      "id": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-I",
+      "label": "International Charitable Interests I (statement account label)",
+      "type": "account_label",
+      "qualification": "Appears in EFTA00199832 statement header with Financial Trust Company; not established as separate legal entity or beneficial owner."
+    },
+    {
+      "id": "ORG-CANDIES-INC-ISSUER",
+      "label": "Candies Inc. (security issuer as printed)",
+      "type": "organization_reference",
+      "qualification": "Named as CAND in EFTA00198731 transaction rows; receipt and subsequent journal entry concern a stated security position/quantity; legal issuer identity and destination account require primary-page verification."
     }
   ],
   "edges": [
@@ -1385,8 +1397,8 @@
     },
     {
       "id": "REL-076",
-      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
-      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-I",
+      "to": "ORG-BEAR-STEARNs-BROKERAGE",
       "type": "brokerage_account_servicing_named_in_statement_headers",
       "evidence": [
         "EVD-035",
@@ -1401,7 +1413,7 @@
     },
     {
       "id": "REL-077",
-      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-I",
       "to": "ORG-FINANCIAL-TRUST-COMPANY",
       "type": "trustee_designation_in_statement_header",
       "evidence": [
@@ -1415,7 +1427,7 @@
     },
     {
       "id": "REL-078",
-      "from": "PERSON-IRA-ZICHERMAN",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
       "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
       "type": "account_executive_named_in_statement",
       "evidence": [
@@ -1452,8 +1464,8 @@
     },
     {
       "id": "REL-081",
-      "from": "PERSON-JEANIE-BRENNAN",
-      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "to": "ORG-BEAR-STEARNs-BROKERAGE",
       "type": "attention_contact_named_in_statement_address_block",
       "evidence": [
         "EVD-036",
@@ -1462,6 +1474,66 @@
       "status": "third_party_ocr_extract_preliminary",
       "event": "EVT-057",
       "interpretation": "Jeanie Brennan appears in the attention/address block; no ownership, trustee, signatory or authority inference."
+    },
+    {
+      "id": "REL-082",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-I",
+      "to": "ORG-FINANCIAL-TRUST-COMPANY",
+      "type": "trustee_designation_in_statement_header",
+      "evidence": [
+        "EVD-039"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-060",
+      "interpretation": "EFTA00199832 summary labels the account International Charitable Interests I and CIO Financial Trust Company; trustee relationship/legal identity require primary records."
+    },
+    {
+      "id": "REL-083",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "to": "ORG-FINANCIAL-TRUST-COMPANY",
+      "type": "trustee_designation_in_statement_header",
+      "evidence": [
+        "EVD-037"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-058",
+      "interpretation": "EFTA00198828 labels account International Charitable Interests II and Financial Trust Co Inc TTEE; no beneficial ownership inference."
+    },
+    {
+      "id": "REL-084",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS-II",
+      "to": "ORG-BEAR-STEARNs-BROKERAGE",
+      "type": "statement_account_serviced_by",
+      "evidence": [
+        "EVD-040"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-061",
+      "interpretation": "EFTA00198769 statement header identifies Bear Stearns & Co Inc as servicing broker; journal destination remains unknown."
+    },
+    {
+      "id": "REL-085",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "to": "ORG-BEAR-STEARNs-BROKERAGE",
+      "type": "statement_account_serviced_by",
+      "evidence": [
+        "EVD-041"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-062",
+      "interpretation": "EFTA00198731 statement pages identify International Charitable Interests and Bear Stearns & Co Inc; this is a servicing relationship, not ownership."
+    },
+    {
+      "id": "REL-086",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "to": "ORG-CANDIES-INC-ISSUER",
+      "type": "security_position_receipt_then_journal_out",
+      "evidence": [
+        "EVD-041"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-062",
+      "interpretation": "EFTA00198731 extract lists 1,197 CAND received Oct. 8 2002 and same quantity journaled out Oct. 21 to PER LOA; destination and meaning of PER LOA unknown."
     }
   ]
 }
