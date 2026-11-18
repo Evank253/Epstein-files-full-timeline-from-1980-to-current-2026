@@ -248,6 +248,66 @@
       "type": "person",
       "finding_label": "NEWLY DEVELOPED FINDING",
       "qualification": "Named as Assistant U.S. Attorney/byline on August 15 2007 Bear Stearns correspondence; original scan pending."
+    },
+    {
+      "id": "ENTITY-REFERENCE-20070827-01",
+      "label": "J. Epstein Virgin Islands Foundation, Inc.",
+      "type": "entity_name_reference",
+      "qualification": "Named in the August 27 2007 AUSA letter as Epstein-related entity known to the prosecutor; not independent proof of ownership, control, officer status or account relationship."
+    },
+    {
+      "id": "ENTITY-REFERENCE-20070827-02",
+      "label": "J. Epstein & Company, Inc.",
+      "type": "entity_name_reference",
+      "qualification": "Named in the August 27 2007 AUSA letter as Epstein-related entity known to the prosecutor; not independent proof of ownership, control, officer status or account relationship."
+    },
+    {
+      "id": "ENTITY-REFERENCE-20070827-03",
+      "label": "Epstein Interests",
+      "type": "entity_name_reference",
+      "qualification": "Named in the August 27 2007 AUSA letter as Epstein-related entity known to the prosecutor; not independent proof of ownership, control, officer status or account relationship."
+    },
+    {
+      "id": "ENTITY-REFERENCE-20070827-04",
+      "label": "Financial Trust Company, Inc.",
+      "type": "entity_name_reference",
+      "qualification": "Named in the August 27 2007 AUSA letter as Epstein-related entity known to the prosecutor; not independent proof of ownership, control, officer status or account relationship."
+    },
+    {
+      "id": "ENTITY-REFERENCE-20070827-05",
+      "label": "NES, LLC",
+      "type": "entity_name_reference",
+      "qualification": "Named in the August 27 2007 AUSA letter as Epstein-related entity known to the prosecutor; not independent proof of ownership, control, officer status or account relationship."
+    },
+    {
+      "id": "ENTITY-REFERENCE-20070827-06",
+      "label": "New York Strategy Group, Inc.",
+      "type": "entity_name_reference",
+      "qualification": "Named in the August 27 2007 AUSA letter as Epstein-related entity known to the prosecutor; not independent proof of ownership, control, officer status or account relationship."
+    },
+    {
+      "id": "ENTITY-REFERENCE-20070827-07",
+      "label": "JEGE, Inc.",
+      "type": "entity_name_reference",
+      "qualification": "Named in the August 27 2007 AUSA letter as Epstein-related entity known to the prosecutor; not independent proof of ownership, control, officer status or account relationship."
+    },
+    {
+      "id": "ENTITY-REFERENCE-20070827-08",
+      "label": "Hyperion Air, Inc.",
+      "type": "entity_name_reference",
+      "qualification": "Named in the August 27 2007 AUSA letter as Epstein-related entity known to the prosecutor; not independent proof of ownership, control, officer status or account relationship."
+    },
+    {
+      "id": "PERSON-DAVID-PETERCSAK",
+      "label": "David Petercsak",
+      "type": "person",
+      "qualification": "Named addressee of August 27 and September 6 2007 Bear Stearns correspondence; exact title and employing legal entity unresolved."
+    },
+    {
+      "id": "PERSON-ARTHUR-MIDDLEMISS",
+      "label": "Arthur Middlemiss",
+      "type": "person",
+      "qualification": "AML officer role reported in 2023 party filing citing underlying Exhibit 125; original exhibit not acquired."
     }
   ],
   "edges": [
@@ -671,6 +731,139 @@
       "status": "newly_developed_finding_page_level_extracted_text",
       "event": "EVT-041",
       "interpretation": "Attribution from extracted letter; original signature/page image pending."
+    },
+    {
+      "id": "REL-036",
+      "from": "ORG-USAO-SDFL",
+      "to": "ENTITY-REFERENCE-20070827-01",
+      "type": "listed_by_AUSA_as_known_Epstein_related_entity",
+      "evidence": [
+        "EVD-020"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-042",
+      "interpretation": "Prosecutor-listed lead only; verify legal identity and ownership separately."
+    },
+    {
+      "id": "REL-037",
+      "from": "ORG-USAO-SDFL",
+      "to": "ENTITY-REFERENCE-20070827-02",
+      "type": "listed_by_AUSA_as_known_Epstein_related_entity",
+      "evidence": [
+        "EVD-020"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-042",
+      "interpretation": "Prosecutor-listed lead only; verify legal identity and ownership separately."
+    },
+    {
+      "id": "REL-038",
+      "from": "ORG-USAO-SDFL",
+      "to": "ENTITY-REFERENCE-20070827-03",
+      "type": "listed_by_AUSA_as_known_Epstein_related_entity",
+      "evidence": [
+        "EVD-020"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-042",
+      "interpretation": "Prosecutor-listed lead only; verify legal identity and ownership separately."
+    },
+    {
+      "id": "REL-039",
+      "from": "ORG-USAO-SDFL",
+      "to": "ENTITY-REFERENCE-20070827-04",
+      "type": "listed_by_AUSA_as_known_Epstein_related_entity",
+      "evidence": [
+        "EVD-020"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-042",
+      "interpretation": "Prosecutor-listed lead only; verify legal identity and ownership separately."
+    },
+    {
+      "id": "REL-040",
+      "from": "ORG-USAO-SDFL",
+      "to": "ENTITY-REFERENCE-20070827-05",
+      "type": "listed_by_AUSA_as_known_Epstein_related_entity",
+      "evidence": [
+        "EVD-020"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-042",
+      "interpretation": "Prosecutor-listed lead only; verify legal identity and ownership separately."
+    },
+    {
+      "id": "REL-041",
+      "from": "ORG-USAO-SDFL",
+      "to": "ENTITY-REFERENCE-20070827-06",
+      "type": "listed_by_AUSA_as_known_Epstein_related_entity",
+      "evidence": [
+        "EVD-020"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-042",
+      "interpretation": "Prosecutor-listed lead only; verify legal identity and ownership separately."
+    },
+    {
+      "id": "REL-042",
+      "from": "ORG-USAO-SDFL",
+      "to": "ENTITY-REFERENCE-20070827-07",
+      "type": "listed_by_AUSA_as_known_Epstein_related_entity",
+      "evidence": [
+        "EVD-020"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-042",
+      "interpretation": "Prosecutor-listed lead only; verify legal identity and ownership separately."
+    },
+    {
+      "id": "REL-043",
+      "from": "ORG-USAO-SDFL",
+      "to": "ENTITY-REFERENCE-20070827-08",
+      "type": "listed_by_AUSA_as_known_Epstein_related_entity",
+      "evidence": [
+        "EVD-020"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-042",
+      "interpretation": "Prosecutor-listed lead only; verify legal identity and ownership separately."
+    },
+    {
+      "id": "REL-044",
+      "from": "ORG-USAO-SDFL",
+      "to": "PERSON-DAVID-PETERCSAK",
+      "type": "sent_information_request_to",
+      "evidence": [
+        "EVD-020",
+        "EVD-021"
+      ],
+      "status": "source_accessed_preliminary",
+      "event": "EVT-042",
+      "interpretation": "Addressee shown in extracted letters; precise corporate role not established."
+    },
+    {
+      "id": "REL-045",
+      "from": "PERSON-ARTHUR-MIDDLEMISS",
+      "to": "ORG-BEAR-STEARNs-BROKERAGE",
+      "type": "AML_officer_role_reported_in_civil_filing",
+      "evidence": [
+        "EVD-022"
+      ],
+      "status": "litigation_citation_only",
+      "event": "EVT-044",
+      "interpretation": "Verify underlying Exhibit 125 and employment records."
+    },
+    {
+      "id": "REL-046",
+      "from": "ORG-BEAR-STEARNs-BROKERAGE",
+      "to": "PERSON-EPSTEIN",
+      "type": "limited_outbound_transfer_review_reported_in_civil_filing",
+      "evidence": [
+        "EVD-022"
+      ],
+      "status": "litigation_citation_only",
+      "event": "EVT-044",
+      "interpretation": "Reported targeted review of outgoing $1,000/$100,000 transfers only; original Bear report not acquired."
     }
   ]
 }
