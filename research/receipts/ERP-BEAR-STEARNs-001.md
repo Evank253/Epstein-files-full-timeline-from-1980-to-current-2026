@@ -170,3 +170,18 @@ Direct review of public Document 174-1 Exhibit 1 shows the email cover at PDF p.
 
 **EVD-034 / EFTA00611194 notes 1, 4(c), 5:** IGY-AYH borrowed $25,271,765 from Island Global Yachting Ltd to purchase American Yacht Harbor; aggregate purchase price $25,238,326. The parent loan was partly converted to equity May 29 2007 and the remainder converted to a note payable to a bank Aug 23 2007. The exact equity-conversion amount is not stated in the extracted passage. Do not equate the $12,976,977.85 JPMorgan wire with the equity conversion or the acquisition price without underlying ledger, loan, wire and membership records.
 
+
+## ERP-001 — Bear Stearns account statement records (2026-11-17)
+
+**EVD-035 / EFTA00198769:** 59-page statement bundle. Extracted transaction detail lists 2001-07-02 "JOURNAL TO PER LOA" debit $1,969,992.00. Exact page locator, meaning of PER LOA, journal contra-account, authorization and destination unresolved. Not evidence of external wire/settlement. Source index: https://epsteinexposed.com/documents/efta-efta00198769. Original PDF/page image not acquired; SHA-256 NOT_MEASURED.
+
+**EVD-036 / EFTA00200535:** 15-page multi-statement bundle. Yirah extracted pages 2,5,7,9,12,14 show repo positions outstanding with Bear, Stearns & Co Inc. Across statement periods Dec. 2000–June 2001: Jan. 4 start principal $2,202,605.50; Apr. 2 start principal $2,102,605.50; June 19 start principal $2,151,602.86, accrued interest $2,993.12, net amount $2,154,595.98, rate 3.97%. These are position snapshots, not transfers. Account-executive field reads James E. Cayne on extracted pages. Source index: https://yirah.fi/epstein/en/document/EFTA00200535. Original PDF/page images not acquired; SHA-256 NOT_MEASURED.
+
+**EVD-037 / EFTA00198828:** Nov. 30–Dec. 31 2002 statement extract identifies International Charitable Interests, Financial Trust Co Inc TTEE, Ira Zicherman, and net credit balance $9,449,358. Other OCR figures/labels require image verification. Source: https://epsteinexposed.com/documents/efta-efta00198828. Original PDF/page image not acquired; SHA-256 NOT_MEASURED.
+
+**EVD-038 / EFTA00198956:** 64-page statement extract reports net equity $27,342,121; prior $27,308,915; change $33,206. Label includes International Charitable Interests II / Financial Trust Co Inc TTEE. Statement period unresolved. Source: https://epsteinexposed.com/documents/efta-efta00198956. Original PDF/page image not acquired; SHA-256 NOT_MEASURED.
+
+**EVD-039 / EFTA00199832:** 171-page statement bundle; one extracted summary reports net equity $0 vs prior $20,586 and change -$20,586. Exact internal page/period unresolved. Source: https://epsteinexposed.com/documents/efta-efta00199832. Original PDF/page image not acquired; SHA-256 NOT_MEASURED.
+
+**Interpretation guardrails:** account labels are not legal-entity or beneficial-owner proof; trustee notation does not identify beneficiaries; account-executive field does not establish authority; repo position is not a bank transfer; journal-to-LOA is not an external wire absent contra-account/settlement; zero balance is not destination evidence.
+
