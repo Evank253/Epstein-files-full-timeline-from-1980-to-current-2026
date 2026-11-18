@@ -43,3 +43,19 @@ The Bitcoin investigation now includes an independent origin/authorship track. T
 The UK High Court's 2024 COPA v Wright judgment is an independent Bitcoin-origin source, not an Epstein-case source. It belongs in the Bitcoin evidence ledger and must not be represented as evidence of Epstein's involvement. The judgment excludes Craig Wright as Satoshi but does not identify the actual creator.
 
 The research question is broader than Epstein: can authenticated historical, technical, cryptographic, and documentary evidence identify the person or people behind Satoshi Nakamoto? Keep this question open, test competing explanations, and avoid naming candidates without decisive evidence.
+
+
+## Four parallel investigations and shared cross-source examination
+
+The parent repository coordinates four distinct investigations while preserving separate evidence ledgers and timelines:
+
+| Investigation ID | Subject | Boundary |
+|---|---|---|
+| EP-WEALTH-001 | Epstein wealth, employment, financial accounts, transactions, entities and beneficial ownership | Financial claims require transaction/account-level evidence; account labels are not ownership proof. |
+| EP-NETWORK-001 | Personal, corporate, institutional, contractual and professional relationships | Mention or proximity is not a relationship; every edge needs source-specific evidence. |
+| BTC-EPSTEIN-001 | Epstein's documented cryptocurrency, investment and Bitcoin ecosystem connections | Keep investment vehicles, fund exposure and personal beneficial ownership distinct. |
+| BTC-ORIGIN-001 | Bitcoin technical/documentary origins and authorship hypotheses | Independent of Epstein unless a direct source artifact establishes a material link. |
+
+**Shared examination service:** CSE-001 (Cross-Source Examination Swarm) independently searches archives, government/court records, original documents, corroboration, contradictions, entity identity, timelines, financial records, technical evidence and missing-evidence gaps. CSE-001 is a coordinated examination function, not a claim that persistent autonomous agents have been launched.
+
+The four investigations remain separate. Shared source artifacts are referenced by canonical IDs and cross-links; they are not duplicated as independent corroboration. Every new item must carry ERP-001 source, acquisition and examination receipts. The Bear Stearns records in `EVT-038`–`EVT-040` are primarily EP-WEALTH-001 and EP-NETWORK-001 material; no BTC investigation linkage is asserted by this document family.
