@@ -120,3 +120,18 @@ The prior summary incorrectly characterized the $1,000 and $100,000 figures as B
 
 **Response pathway refinement:** EFTA00189873 says custodian testimony would be unnecessary if records certification completed; EFTA00189877 later says Bear expected some documents to be ready and asks when the external account list would be provided. These are evidence of correspondence about expected production, not proof the certification or production was completed. Required next records: attached subpoena/certification, executed certification, production inventory, response letter, external-account schedule and Exhibit 127 actual pages.
 
+
+## ERP-001 extension — Bear statement family and court-response cross-check
+
+**SR/XR-EPW-009 — EFTA00198828:** https://epsteinexposed.com/documents/efta-efta00198828. Extracted header identifies International Charitable Interests, Financial Trust Co Inc TTEE, Ira Zicherman; statement period Nov 30-Dec 31 2002; summary values require scan check. Original images/bytes NOT_ACQUIRED; hash NOT_MEASURED.
+
+**SR/XR-EPW-010 — EFTA00199832:** https://epsteinexposed.com/documents/efta-efta00199832. 171-page statement, period through May 31 2002 per extract; balance $20,586 to zero. No disposition inferred; full statement not examined.
+
+**SR/XR-EPW-011 — EFTA00200535:** https://epsteinexposed.com/documents/efta-efta00200535. 15-page statement; extract describes repurchase agreement starting June 19 2001 with principal/purchase price $2,151,602.86. No external transfer inferred; scan/date/field labels unverified.
+
+**SR/XR-EPW-012 — EFTA00198769:** https://epsteinexposed.com/documents/efta-efta00198769. 59-page International Charitable Interests statement; extract names Financial Trust Co Inc TTEE and Ira Zicherman; amount/period require scan check.
+
+**SR/XR-EPW-013 — EFTA00198956:** https://epsteinexposed.com/documents/efta-efta00198956. 64-page statement; extract names International Charitable Interests and Financial Trust Co Inc TTEE; amount/period require scan check.
+
+**Cross-reference:** EFTA02815288 / S.D.N.Y. Document 284-3 (Aug. 14 2023) is JPMorgan's response to USVI factual assertions. Paragraphs 173–174 cite sealed Exhibit 125 and Exhibit 127 respectively; paragraph 174 quotes Ryan's recollection of the AUSA request. Paragraph 178 separately cites a 2007 transfer chart (Exhibit 63). JPMorgan admits the quoted email content but disputes the broader inference. Keep these evidence items separate; acquire Exhibits 63, 125, 127 and underlying AUSA correspondence before making transaction claims.
+
