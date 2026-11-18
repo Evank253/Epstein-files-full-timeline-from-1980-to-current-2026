@@ -154,3 +154,14 @@ Direct review of public Document 174-1 Exhibit 1 shows the email cover at PDF p.
 
 **JPMTX-020:** Oct. 1 2007 $2.5m book-transfer credit; National Financial Services LLC named as counterparty; originator Alan M. Dershowitz. **JPMTX-021:** Sept. 26 2007 $1m Mellon Fedwire credit; Financial Trust Company named B/O; Epstein beneficiary. **JPMTX-022:** May 29 2007 $12,976,977.85 Fedwire debit via Wachovia to Island Global Yachting Ltd; reference states purchase of interest in American Yacht Harbor. **JPMTX-023–025:** Sept. 20 2007 $227,158.57 debit to Worth Builders of Palm Beach, $53,337.65 book transfer to JP Molyneux Studio Ltd and $74,155 CHIPS debit to Maguire Group Inc. These are row-level spreadsheet descriptions, not independently confirmed settlement, contracts, title, or beneficial ownership. Acquire bank wire records, receiving account statements, purchase agreement/closing documents, and corporate ownership records before qualification.
 
+
+## ERP-001 extension — American Yacht Harbor investment cross-source alignment
+
+**SR/XR-EPW-015 — EFTA00611194 audited 2007 statements.** https://yirah.fi/epstein/en/document/EFTA00611194. Notes state IGY-AYH St Thomas Holdings LLC formed as wholly owned subsidiary of Island Global Yachting Ltd Dec 5 2006; acquired American Yacht Harbor Jan 18 2007; sold a 50% passive member interest to one of parent investors May 29 2007. Investor unnamed. Original bytes/images not acquired; hash NOT_MEASURED.
+
+**SR/XR-EPW-016 — EFTA00594382 Jan 18 2007 closing statement.** https://efta.threats.watch/documents/EFTA00594382. Seller MOF VI Limited Partnership; buyer IGY-AYH St Thomas Holdings LLC; property American Yacht Harbor; stated purchase price $25.5m. This is distinct from May 29 50% member-interest sale. Original bytes/images not acquired; hash NOT_MEASURED.
+
+**SR/XR-EPW-017 — EFTA01134866 February 2014 revised draft settlement agreement.** https://www.tommycarstensen.com/epstein/data/documents/set9/01134/EFTA01134866.html. Recites Epstein purchased 50% membership interest in IGY-AYH under May 29 2007 agreement with Island Global Yachting Facilities Ltd; recites purchase-price and management-fee dispute. Marked revised draft; date blank; execution and final settlement not established. Original bytes/signatures not acquired; hash NOT_MEASURED.
+
+**Cross-source assessment:** the May 29 2007 JPMorgan spreadsheet debit $12,976,977.85 to Island Global Yachting Ltd, reference purchase of interest in American Yacht Harbor, aligns with audited statement date/50% sale and 2014 draft recitals naming Epstein as purchaser. This is not yet complete transaction verification: acquire executed membership agreement, amended LLC agreement, side letter, membership ledger, signed settlement, wire settlement confirmation and IGY receiving-bank records. Do not equate $12,976,977.85 with final purchase price or infer that the draft was executed.
+
