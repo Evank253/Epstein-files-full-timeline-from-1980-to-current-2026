@@ -196,3 +196,6 @@ Direct review of public Document 174-1 Exhibit 1 shows the email cover at PDF p.
 
 **Interpretation constraints:** PER, PER WA, PER LOA and PERIP M remain uninterpreted. OCR-corrupted wire destinations remain unknown. A journal debit is not automatically an external wire. The Candies Inc receipt/journal pair appears to be a security/position movement, not a cash transfer, pending original-page verification. No destination or receiving institution should be inferred from these entries.
 
+## Account-label normalization correction
+
+The statement headers distinguish three account-label variants: **International Charitable Interests** (EFTA00198731); **International Charitable Interests II** (EFTA00198769, EFTA00198828, EFTA00198956, and EFTA00200535); and **International Charitable Interests I** (EFTA00199832). These labels are recorded separately in the transaction trace and relationship graph. They are not assumed to be distinct legal entities or beneficial owners; exact account identifiers and legal structure require original statements, account-opening documents and trustee records. EFTA00200535's repo snapshots are specifically labeled II, while EFTA00199832's zero-balance summary is labeled I.
