@@ -386,6 +386,54 @@
       "label": "The Bank of Nova Scotia",
       "type": "financial_institution_reference",
       "qualification": "bank named in JPM spreadsheet book-transfer description; exact account and settlement not independently confirmed."
+    },
+    {
+      "id": "ORG-ISLAND-GLOBAL-YACHTING",
+      "label": "Island Global Yachting Ltd",
+      "type": "financial_entity_reference",
+      "qualification": "Named as Fedwire debit account/counterparty in the JPMorgan spreadsheet; legal identity, ownership and transaction settlement require independent records."
+    },
+    {
+      "id": "ORG-AMERICAN-YACHT-HARBOR",
+      "label": "American Yacht Harbor",
+      "type": "financial_entity_reference",
+      "qualification": "Named in the reference field for the May 29 2007 $12,976,977.85 debit as the subject of a purchase of interest; underlying asset and ownership interest not established."
+    },
+    {
+      "id": "ORG-NATIONAL-FINANCIAL-SERVICES",
+      "label": "National Financial Services LLC",
+      "type": "financial_entity_reference",
+      "qualification": "Named as book-transfer counterparty in an Oct. 1 2007 $2.5m credit row; exact account roles and settlement require records."
+    },
+    {
+      "id": "PERSON-ALAN-DERSHOWITZ",
+      "label": "Alan M. Dershowitz",
+      "type": "person",
+      "qualification": "Named as originator in the Oct. 1 2007 National Financial Services book-transfer credit row; this entry alone does not establish source of funds or purpose."
+    },
+    {
+      "id": "ORG-WORTH-BUILDERS",
+      "label": "Worth Builders of Palm Beach Inc.",
+      "type": "financial_entity_reference",
+      "qualification": "Named as counterparty in a Sept. 20 2007 Fedwire debit row; account and settlement unverified."
+    },
+    {
+      "id": "ORG-JP-MOLYNEUX-STUDIO",
+      "label": "JP Molyneux Studio Ltd",
+      "type": "financial_entity_reference",
+      "qualification": "Named as account/counterparty in a Sept. 20 2007 book-transfer debit row; ownership and purpose unverified."
+    },
+    {
+      "id": "ORG-MAGUIRE-GROUP",
+      "label": "Maguire Group Inc.",
+      "type": "financial_entity_reference",
+      "qualification": "Named as account/counterparty in a Sept. 20 2007 CHIPS debit row; account and settlement unverified."
+    },
+    {
+      "id": "ORG-WACHOVIA",
+      "label": "Wachovia Bank",
+      "type": "financial_entity_reference",
+      "qualification": "Named in the transaction spreadsheet as Fedwire rail for Island Global Yachting debit and Island Fund 1 LLC credit; receiving/originating settlement not independently confirmed."
     }
   ],
   "edges": [
@@ -1106,6 +1154,102 @@
       "status": "litigation_copy_examined_preliminary",
       "event": "EVT-052",
       "interpretation": "Multiple Fedwire credits list Mellon Bank N.A. and Financial Trust Company Inc as B/O, with Jeffrey E. Epstein as beneficiary; no independent Mellon settlement confirmation or source-account records."
+    },
+    {
+      "id": "REL-060",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-WACHOVIA",
+      "type": "transaction_rail_named_in_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-053",
+      "interpretation": "$12,976,977.85 May 29 debit to Island Global Yachting and $7,508,968.68 Aug. 29 credit from Island Fund 1 LLC; direction differs by row."
+    },
+    {
+      "id": "REL-061",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-ISLAND-GLOBAL-YACHTING",
+      "type": "debit_counterparty_named_in_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-053",
+      "interpretation": "May 29 2007 $12,976,977.85 Fedwire debit; reference states purchase of interest in American Yacht Harbor."
+    },
+    {
+      "id": "REL-062",
+      "from": "ORG-ISLAND-GLOBAL-YACHTING",
+      "to": "ORG-AMERICAN-YACHT-HARBOR",
+      "type": "purchase_reference_only",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-053",
+      "interpretation": "Spreadsheet reference says purchase of interest in American Yacht Harbor; no contract or ownership evidence."
+    },
+    {
+      "id": "REL-063",
+      "from": "ORG-NATIONAL-FINANCIAL-SERVICES",
+      "to": "ORG-JPMORGAN-CHASE",
+      "type": "book_transfer_credit_counterparty",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-053",
+      "interpretation": "Oct. 1 2007 $2.5m credit row; originator Alan M. Dershowitz is named; account roles and purpose unverified."
+    },
+    {
+      "id": "REL-064",
+      "from": "PERSON-ALAN-DERSHOWITZ",
+      "to": "ORG-NATIONAL-FINANCIAL-SERVICES",
+      "type": "originator_named_in_transaction_row",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-053",
+      "interpretation": "Oct. 1 2007 $2.5m book-transfer credit row; no source-of-funds inference."
+    },
+    {
+      "id": "REL-065",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-WORTH-BUILDERS",
+      "type": "debit_counterparty_named_in_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-053",
+      "interpretation": "Sept. 20 2007 $227,158.57 Fedwire debit; invoice reference 270819."
+    },
+    {
+      "id": "REL-066",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-JP-MOLYNEUX-STUDIO",
+      "type": "book_transfer_counterparty_named_in_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-053",
+      "interpretation": "Sept. 20 2007 $53,337.65 book-transfer debit; corporate account proposal reference."
+    },
+    {
+      "id": "REL-067",
+      "from": "ORG-JPMORGAN-CHASE",
+      "to": "ORG-MAGUIRE-GROUP",
+      "type": "debit_counterparty_named_in_spreadsheet",
+      "evidence": [
+        "EVD-029"
+      ],
+      "status": "litigation_copy_examined_preliminary",
+      "event": "EVT-053",
+      "interpretation": "Sept. 20 2007 $74,155 CHIPS debit; job references shown."
     }
   ]
 }
