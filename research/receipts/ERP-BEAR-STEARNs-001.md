@@ -93,3 +93,15 @@ The index identifies EFTA00193068 as a **131-page parent document** with Bates p
 **EFTA00186986 remains a separate unresolved identifier lead.** It must not be conflated with the parent document EFTA00193068 or its internal Bates pages. The earlier entry CLM-016 is retained historically; CLM-019 supplies the more precise corrected document/page mapping.
 
 **Additional lead:** The August 27 letter EFTA00189874 extracted text continues beyond the entity list to request accounts at other financial institutions to which Bear Stearns transferred money or from which it received money on Epstein's behalf. Check the original page image before quotation or stronger status.
+
+## ERP-001 extension — external-account requests and Bear AML review trail
+
+**SR/XR-EPW-004 — EFTA00189874, Aug. 27, 2007.** Hosted extracted text at https://epsteinexposed.com/documents/efta-efta00189874 lists eight entities known to the AUSA and requests additional CEO/COO or sole-owner/shareholder entities plus external financial-institution accounts to/from which Bear transferred or received funds on Epstein's behalf. Extract truncates. Original PDF/page image NOT_ACQUIRED; SHA-256 NOT_MEASURED. Entity names are prosecutor-listed leads, not verified ownership.
+
+**SR/XR-EPW-005 — EFTA00189877, Sept. 6, 2007.** Hosted extracted text at https://epsteinexposed.com/documents/efta-efta00189877 repeats request for external-account list and production status; meeting-related periods listed are July 2004, March 2005, April 2005, September 2005 and October 2005. These are not proven transfer dates. Original scan NOT_ACQUIRED; SHA-256 NOT_MEASURED.
+
+**SR-EPW-006 — 2023 USVI v JPMorgan filing, S.D.N.Y. Document 285-2, ¶¶171–177.** https://epsteinsuite.com/serve.php?id=29815. Filing describes Bear AML officer Arthur Middlemiss and a targeted review of accounts maintained for Epstein's benefit, focused on outgoing $1,000/$100,000 transfers; quotes Bear's reported conclusion about no matching suspicious/unusual third-party wires. Cites Exhibit 125, JPM-SDNYLIT-00373075/-00373076. Underlying exhibit NOT_ACQUIRED. This is a party statement, not a judicial finding or original Bear memo. Do not infer a complete audit.
+
+**SR-EPW-007 — 2011 file retrieval lead.** Same filing ¶¶173–175 describes Jan. 10–11, 2011 JPMorgan emails locating the Bear 2007 subpoena file; cites Exhibits 127/128. Emails NOT_ACQUIRED; chain of custody and file contents unresolved.
+
+**Linked records:** EVT-042–045; CLM-020–022; EVD-020–022; ART-022–024. Graph has evidence-qualified name references, not verified ownership claims. Required next acquisition: complete original letters, Bear's response and external-account schedule, Exhibit 125 and Exhibits 127/128. For each actual transfer, require date, amount, currency, originating and receiving accounts, legal/beneficial ownership (if established), intermediary, reference number and evidence of settlement. A request for information is not proof of transfer; a transfer instruction is not proof of settlement.
