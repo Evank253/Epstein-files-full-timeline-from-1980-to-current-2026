@@ -234,6 +234,20 @@
       "type": "account_name_as_listed",
       "finding_label": "NEWLY DEVELOPED FINDING",
       "qualification": "Named in production letter; ownership, authority, balance and legal form NOT_ESTABLISHED."
+    },
+    {
+      "id": "PERSON-ALEXANDER-ACOSTA",
+      "label": "R. Alexander Acosta",
+      "type": "person",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named as U.S. Attorney in August 15 2007 Bear Stearns correspondence; original scan pending."
+    },
+    {
+      "id": "PERSON-ANN-MARIE-VILLAFANA",
+      "label": "A. Marie Villafaña",
+      "type": "person",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named as Assistant U.S. Attorney/byline on August 15 2007 Bear Stearns correspondence; original scan pending."
     }
   ],
   "edges": [
@@ -621,6 +635,42 @@
       "status": "newly_developed_finding_source_accessed",
       "event": "EVT-040",
       "interpretation": "The name appears in the September 7 letter's list. This does not establish that the named entity is owned or controlled by Epstein, nor does it establish an account balance or transaction."
+    },
+    {
+      "id": "REL-033",
+      "from": "ORG-BEAR-STEARNs-COMPANIES",
+      "to": "ORG-BEAR-STEARNs-BROKERAGE",
+      "type": "subpoena_scope_expressly_intended_to_include_subsidiary",
+      "evidence": [
+        "EVD-019"
+      ],
+      "status": "newly_developed_finding_page_level_extracted_text",
+      "event": "EVT-041",
+      "interpretation": "August 15 prosecutor letter text says subpoena addressed to parent Bear Stearns Companies was meant to include subsidiary Bear, Stearns & Co. Inc.; separate subpoena could be issued if desired. This is evidence of intended subpoena scope, not proof of which entity actually searched or produced records."
+    },
+    {
+      "id": "REL-034",
+      "from": "PERSON-ALEXANDER-ACOSTA",
+      "to": "ORG-BEAR-STEARNs-COMPANIES",
+      "type": "prosecutor_letter_about_subpoena_scope_to",
+      "evidence": [
+        "EVD-019"
+      ],
+      "status": "newly_developed_finding_page_level_extracted_text",
+      "event": "EVT-041",
+      "interpretation": "Attribution from extracted letter; original signature/page image pending."
+    },
+    {
+      "id": "REL-035",
+      "from": "PERSON-ANN-MARIE-VILLAFANA",
+      "to": "ORG-BEAR-STEARNs-COMPANIES",
+      "type": "assistant_us_attorney_correspondence_about_subpoena_scope",
+      "evidence": [
+        "EVD-019"
+      ],
+      "status": "newly_developed_finding_page_level_extracted_text",
+      "event": "EVT-041",
+      "interpretation": "Attribution from extracted letter; original signature/page image pending."
     }
   ]
 }
