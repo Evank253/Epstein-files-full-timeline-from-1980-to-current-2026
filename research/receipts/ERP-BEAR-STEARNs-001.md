@@ -72,3 +72,24 @@ Do not infer which entity held, searched, controlled or produced a particular re
 7. Compare these findings with DOJ/FBI investigative records before claiming they were previously unknown to investigators.
 
 No repository records claim original-file acquisition, hashes, independent corroboration, or completed DOJ/FBI novelty testing.
+
+
+## ERP-001 retrospective correction — EFTA00193068 parent document and exact Bear subpoena pages
+
+The earlier receipt bundle described EFTA00193068 as though it were itself the subpoena. That description is corrected here.
+
+The index identifies EFTA00193068 as a **131-page parent document** with Bates pages EFTA00193068 through EFTA00193198. The Bear Stearns OLY-71 subpoena is inside that bundle:
+- Bates EFTA00193096, page 29/131: subpoena to Custodian of Records, Bear Stearns Companies Inc.; OLY-71; return/appearance September 4, 2007.
+- Bates EFTA00193098, page 31/131: attachment to subpoena, Bear Stearns Companies Inc.; requests records relating to Epstein, including account statements for accounts owned or managed by Epstein and employment records.
+- Bates EFTA00193099–EFTA00193101: certification and inventory pages.
+- Bates EFTA00193108, page 41/131: August 15, 2007 letter to Dennis Block. Extracted text says the subpoena was addressed to the parent corporation Bear Stearns Companies but was meant to include subsidiary Bear, Stearns & Co. Inc.; a separate subpoena could be issued if requested.
+
+**Important interpretation update:** This letter materially resolves the earlier question about intended scope: the prosecutor expressly states that the subpoena addressed to the parent was meant to include the subsidiary. It does not, by itself, establish which entity actually searched, held, controlled, certified, or produced specific records.
+
+**New receipt links:** EVT-041 / CLM-019 / EVD-019 / ART-021.
+
+**Source and acquisition status:** Page-level extracted text accessed at https://www.tommycarstensen.com/epstein/data/documents/set9/00193/EFTA00193068.html. DOJ direct PDF route redirected to age verification and direct download failed in this session. Original bytes/page images remain NOT_ACQUIRED; SHA-256 and byte size NOT_MEASURED. This is not an original-source image verification.
+
+**EFTA00186986 remains a separate unresolved identifier lead.** It must not be conflated with the parent document EFTA00193068 or its internal Bates pages. The earlier entry CLM-016 is retained historically; CLM-019 supplies the more precise corrected document/page mapping.
+
+**Additional lead:** The August 27 letter EFTA00189874 extracted text continues beyond the entity list to request accounts at other financial institutions to which Bear Stearns transferred money or from which it received money on Epstein's behalf. Check the original page image before quotation or stronger status.
