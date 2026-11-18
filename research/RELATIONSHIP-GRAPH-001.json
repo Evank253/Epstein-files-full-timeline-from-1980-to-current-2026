@@ -1340,6 +1340,30 @@
       "status": "source_accessed_preliminary",
       "event": "EVT-054",
       "interpretation": "Jan. 18 2007 closing statement identifies MOF VI LP as seller and IGY-AYH as buyer for American Yacht Harbor; distinct from May 29 member-interest purchase."
+    },
+    {
+      "id": "REL-074",
+      "from": "ORG-ISLAND-GLOBAL-YACHTING",
+      "to": "ORG-IGY-AYH-ST-THOMAS-HOLDINGS",
+      "type": "parent_intercompany_loan_funding_asset_acquisition",
+      "evidence": [
+        "EVD-034"
+      ],
+      "status": "audited_statement_extracted_text",
+      "event": "EVT-055",
+      "interpretation": "Audited 2007 statements state subsidiary borrowed $25,271,765 from parent to purchase American Yacht Harbor; original loan agreement and ledger not acquired."
+    },
+    {
+      "id": "REL-075",
+      "from": "ORG-IGY-AYH-ST-THOMAS-HOLDINGS",
+      "to": "ORG-ISLAND-GLOBAL-YACHTING",
+      "type": "intercompany_loan_partial_equity_conversion_and_note_payable",
+      "evidence": [
+        "EVD-034"
+      ],
+      "status": "audited_statement_extracted_text",
+      "event": "EVT-055",
+      "interpretation": "Audited statements say parent loan was partially converted to equity May 29 2007 and remainder converted to bank note Aug 23 2007; exact amounts and entries require general ledger."
     }
   ]
 }
