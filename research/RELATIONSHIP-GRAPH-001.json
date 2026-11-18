@@ -171,6 +171,69 @@
       "id": "ORG-FEDERAL-REGISTER",
       "label": "Federal Register",
       "type": "publication"
+    },
+    {
+      "id": "ORG-BEAR-STEARNs-COMPANIES",
+      "label": "Bear Stearns Companies Inc.",
+      "type": "company",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named as subpoena recipient in extracted record EFTA00193068; precise corporate role and document relationship remain under examination."
+    },
+    {
+      "id": "ORG-BEAR-STEARNs-BROKERAGE",
+      "label": "Bear, Stearns & Co. Inc.",
+      "type": "company",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named as sender on September 7 2007 production response; do not conflate with parent company."
+    },
+    {
+      "id": "ORG-USAO-UNKNOWN",
+      "label": "U.S. Attorney’s Office (district to be verified)",
+      "type": "government_office",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Attributed sender of August 27 2007 correspondence; office identity requires original-letter verification."
+    },
+    {
+      "id": "ACCT-EPSTEIN-INTERESTS",
+      "label": "Epstein Interests (account label)",
+      "type": "account_name_as_listed",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named in production letter; ownership, authority, balance and legal form NOT_ESTABLISHED."
+    },
+    {
+      "id": "ACCT-FINANCIAL-TRUST",
+      "label": "Financial Trust Co. Inc. (account label)",
+      "type": "account_name_as_listed",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named in production letter; ownership, authority, balance and legal form NOT_ESTABLISHED."
+    },
+    {
+      "id": "ACCT-INSTITUTIONAL-INTERESTS",
+      "label": "Institutional Interests (account label)",
+      "type": "account_name_as_listed",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named in production letter; ownership, authority, balance and legal form NOT_ESTABLISHED."
+    },
+    {
+      "id": "ACCT-HERITAGE-INTERESTS",
+      "label": "Heritage Interests (account label)",
+      "type": "account_name_as_listed",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named in production letter; ownership, authority, balance and legal form NOT_ESTABLISHED."
+    },
+    {
+      "id": "ACCT-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "label": "International Charitable Interests (account label)",
+      "type": "account_name_as_listed",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named in production letter; ownership, authority, balance and legal form NOT_ESTABLISHED."
+    },
+    {
+      "id": "ACCT-HEALTH-SCIENCE-INTERESTS",
+      "label": "Health & Science Interests (account label)",
+      "type": "account_name_as_listed",
+      "finding_label": "NEWLY DEVELOPED FINDING",
+      "qualification": "Named in production letter; ownership, authority, balance and legal form NOT_ESTABLISHED."
     }
   ],
   "edges": [
@@ -450,6 +513,114 @@
       "status": "official_DOJ_report",
       "event": "EVT-025",
       "interpretation": "OPR summary distinguishes poor judgment from misconduct."
+    },
+    {
+      "id": "REL-024",
+      "from": "ORG-BEAR-STEARNs-COMPANIES",
+      "to": "PERSON-EPSTEIN",
+      "type": "subpoena_recipient_for_records_concerning",
+      "evidence": [
+        "EVD-016"
+      ],
+      "status": "newly_developed_finding_source_accessed",
+      "event": "EVT-038",
+      "interpretation": "EFTA00193068 extracted text identifies parent company as custodian recipient. This is a subpoena relationship, not proof of account ownership or wrongdoing. Identifier EFTA00186986 remains unresolved."
+    },
+    {
+      "id": "REL-025",
+      "from": "ORG-USAO-UNKNOWN",
+      "to": "ORG-BEAR-STEARNs-COMPANIES",
+      "type": "requested_additional_entity_information_from",
+      "evidence": [
+        "EVD-017"
+      ],
+      "status": "newly_developed_finding_preliminary_text_exam",
+      "event": "EVT-039",
+      "interpretation": "Extracted letter text appears to request entity and role information. It does not prove Bear Stearns verified the entities."
+    },
+    {
+      "id": "REL-026",
+      "from": "ORG-BEAR-STEARNs-BROKERAGE",
+      "to": "PERSON-EPSTEIN",
+      "type": "represented_production_of_personnel_file_and_account_statements_concerning",
+      "evidence": [
+        "EVD-018"
+      ],
+      "status": "newly_developed_finding_source_accessed",
+      "event": "EVT-040",
+      "interpretation": "Production letter representation only; underlying CD, completeness, beneficial ownership and balances remain unverified."
+    },
+    {
+      "id": "REL-027",
+      "from": "ORG-BEAR-STEARNs-BROKERAGE",
+      "to": "ACCT-EPSTEIN-INTERESTS",
+      "type": "account_label_listed_in_production_letter",
+      "evidence": [
+        "EVD-018"
+      ],
+      "status": "newly_developed_finding_source_accessed",
+      "event": "EVT-040",
+      "interpretation": "The name appears in the September 7 letter's list. This does not establish that the named entity is owned or controlled by Epstein, nor does it establish an account balance or transaction."
+    },
+    {
+      "id": "REL-028",
+      "from": "ORG-BEAR-STEARNs-BROKERAGE",
+      "to": "ACCT-FINANCIAL-TRUST",
+      "type": "account_label_listed_in_production_letter",
+      "evidence": [
+        "EVD-018"
+      ],
+      "status": "newly_developed_finding_source_accessed",
+      "event": "EVT-040",
+      "interpretation": "The name appears in the September 7 letter's list. This does not establish that the named entity is owned or controlled by Epstein, nor does it establish an account balance or transaction."
+    },
+    {
+      "id": "REL-029",
+      "from": "ORG-BEAR-STEARNs-BROKERAGE",
+      "to": "ACCT-INSTITUTIONAL-INTERESTS",
+      "type": "account_label_listed_in_production_letter",
+      "evidence": [
+        "EVD-018"
+      ],
+      "status": "newly_developed_finding_source_accessed",
+      "event": "EVT-040",
+      "interpretation": "The name appears in the September 7 letter's list. This does not establish that the named entity is owned or controlled by Epstein, nor does it establish an account balance or transaction."
+    },
+    {
+      "id": "REL-030",
+      "from": "ORG-BEAR-STEARNs-BROKERAGE",
+      "to": "ACCT-HERITAGE-INTERESTS",
+      "type": "account_label_listed_in_production_letter",
+      "evidence": [
+        "EVD-018"
+      ],
+      "status": "newly_developed_finding_source_accessed",
+      "event": "EVT-040",
+      "interpretation": "The name appears in the September 7 letter's list. This does not establish that the named entity is owned or controlled by Epstein, nor does it establish an account balance or transaction."
+    },
+    {
+      "id": "REL-031",
+      "from": "ORG-BEAR-STEARNs-BROKERAGE",
+      "to": "ACCT-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "type": "account_label_listed_in_production_letter",
+      "evidence": [
+        "EVD-018"
+      ],
+      "status": "newly_developed_finding_source_accessed",
+      "event": "EVT-040",
+      "interpretation": "The name appears in the September 7 letter's list. This does not establish that the named entity is owned or controlled by Epstein, nor does it establish an account balance or transaction."
+    },
+    {
+      "id": "REL-032",
+      "from": "ORG-BEAR-STEARNs-BROKERAGE",
+      "to": "ACCT-HEALTH-SCIENCE-INTERESTS",
+      "type": "account_label_listed_in_production_letter",
+      "evidence": [
+        "EVD-018"
+      ],
+      "status": "newly_developed_finding_source_accessed",
+      "event": "EVT-040",
+      "interpretation": "The name appears in the September 7 letter's list. This does not establish that the named entity is owned or controlled by Epstein, nor does it establish an account balance or transaction."
     }
   ]
 }
