@@ -37,3 +37,18 @@ Acquire lawful public originals; record retrieval metadata and SHA-256; extract 
 **Interpretation limits:** Do not merge Bear Stearns Companies Inc. with Bear, Stearns & Co. Inc. Do not merge subpoena identifiers EFTA00186986 and EFTA00193068. The six account labels do not establish beneficial ownership, legal form, signatory authority, balances, transfers, or wrongdoing. Novelty relative to the complete DOJ/FBI investigative record is NOT_ESTABLISHED until a systematic comparison is completed.
 
 **Next acquisition/examination tasks:** obtain original PDFs for EFTA00186986, EFTA00193068 and EFTA00189874; compare Bates identifiers and attachments; inspect EFTA00187050 page image; locate the referenced CD and follow-up productions; identify legal entities and account authority from primary records.
+
+
+## Correction and expanded primary-source lead — EFTA00193068 page family (2026-11-17)
+
+**Correction to earlier entry:** EFTA00193068 is not a standalone subpoena document. The index identifies it as a 131-page parent production, Bates span EFTA00193068–EFTA00193198. Within that parent:
+- Bates EFTA00193096 (page 29/131) is the OLY-71 subpoena addressed to Custodian of Records, Bear Stearns Companies Inc., with September 4, 2007 appearance/return date.
+- Bates EFTA00193098 (page 31/131) is the attachment to subpoena, Bear Stearns Companies Inc., requesting documents concerning Epstein, including accounts owned or managed by him and employment records.
+- Bates EFTA00193099–EFTA00193101 contain a business-record certification and inventory pages.
+- Bates EFTA00193108 (page 41/131) is an August 15, 2007 letter to Dennis Block. Its extracted text states the subpoena was addressed to the parent corporation Bear Stearns Companies but was meant to include subsidiary Bear, Stearns & Co. Inc.; it offers a separate subpoena for that entity if requested.
+
+**Effect:** The corporate-entity question is materially clarified as to the prosecutor's stated intended subpoena scope. Do not continue describing the parent/subsidiary relationship as wholly unexplained. However, which entity actually searched for, held, controlled, certified, or produced each record still requires custodian certification, inventories, production records, and original scans.
+
+**New timeline item:** EVT-041; claim CLM-019; evidence EVD-019; source artifact ART-021; graph edges REL-033–REL-035.
+
+**Acquisition limitation:** DOJ direct PDF access was blocked by age-verification redirect in the browsing route and a direct download attempt failed. The present examination is based on page-level extracted text hosted by a third-party index. No original PDF bytes, page images, SHA-256, or file size are claimed. The index explicitly warns OCR may contain errors. Original scan verification remains mandatory.
