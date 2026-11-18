@@ -52,3 +52,12 @@ Acquire lawful public originals; record retrieval metadata and SHA-256; extract 
 **New timeline item:** EVT-041; claim CLM-019; evidence EVD-019; source artifact ART-021; graph edges REL-033–REL-035.
 
 **Acquisition limitation:** DOJ direct PDF access was blocked by age-verification redirect in the browsing route and a direct download attempt failed. The present examination is based on page-level extracted text hosted by a third-party index. No original PDF bytes, page images, SHA-256, or file size are claimed. The index explicitly warns OCR may contain errors. Original scan verification remains mandatory.
+
+## Newly developed external-account and AML review leads (2026-11-17)
+
+- **EVT-042 / EFTA00189874 (Aug. 27, 2007):** extracted text lists eight Epstein-related entity names known to the AUSA, requests additional CEO/COO or sole-owner/shareholder entities, and asks for accounts at other financial institutions to/from which Bear transferred or received funds on Epstein's behalf. The hosted extract truncates. Names are prosecutor-listed leads, not verified ownership. No external institution/account identified yet.
+- **EVT-043 / EFTA00189877 (Sept. 6, 2007):** follow-up asks for the external-account list and production status; cites meeting-record periods July 2004, March 2005, April 2005, September 2005 and October 2005. These are request periods, not transaction dates. No Bear response/list located.
+- **EVT-044:** 2023 USVI v JPMorgan party filing, Document 285-2 ¶¶171–177, describes a Bear review of accounts maintained for Epstein's benefit focused on outgoing $1,000/$100,000 transfers and quotes a limited conclusion. It cites Exhibit 125, JPM-SDNYLIT-00373075/-00373076. This is not the original Bear memo or a judicial finding; scope is not a comprehensive audit.
+- **EVT-045:** same filing ¶¶173–175 describes 2011 JPMorgan emails locating the 2007 Bear subpoena file; cites Exhibits 127/128. Underlying emails not acquired.
+
+Added EVT-042–045, CLM-020–022, EVD-020–022, ART-022–024. Graph now contains eight prosecutor-listed entity-name reference nodes plus David Petercsak and Arthur Middlemiss; their roles and relationships retain explicit qualification. Next priority: acquire EFTA00189874/877 originals, Bear's response and external-account schedule, Exhibit 125 and Exhibits 127/128. Then identify actual counterpart institutions and trace settled transactions using statements/wire records from both sides. Original bytes/images and SHA-256 remain NOT_ACQUIRED / NOT_MEASURED for these new records.
