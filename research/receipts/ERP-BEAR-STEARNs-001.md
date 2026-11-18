@@ -144,3 +144,8 @@ The prior summary incorrectly characterized the $1,000 and $100,000 figures as B
 
 **Cross-source warning:** Exhibit 63 is the Oct. 19–23, 2007 email thread with attachments, not merely a standalone transfer chart. The spreadsheet is one component of that exhibit/Bates span. Do not conflate the exhibit label with a separate chart or assume all visible rows are exactly twenty $100,000 transfers.
 
+
+## ERP correction — JPMorgan transaction spreadsheet row locations
+
+Direct review of public Document 174-1 Exhibit 1 shows the email cover at PDF p.2 and spreadsheet rows on PDF pp.6–9. The attachment is named "Epstein 2007 transactions.xls.zip" and described as 2007 transaction activity >=$50,000. Updated row-level locators and partial transcription in JPM-TRANSACTION-TRACE-001.csv. The partial trace distinguishes debits from credits and records examples including the $6.5m 2007-09-06 Citibank-routed debit naming Bear Stearns & Co, $100k 2007-09-25 Citibank-routed debit naming Bear, $100k 2007-09-17 Sovereign Bank-routed debit to Martin G Weinberg PC IOLTA, Mellon $1m credits with Financial Trust Company as B/O and Epstein as beneficiary, and the $7,508,968.68 Wachovia credit with Island Fund 1 LLC as originator. These remain spreadsheet entries, not independent settlement confirmations. The native workbook is not acquired and the court's twenty-$100k characterization remains to be reconciled against all rows.
+
