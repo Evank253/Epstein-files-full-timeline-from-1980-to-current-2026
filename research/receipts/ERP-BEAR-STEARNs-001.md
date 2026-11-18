@@ -188,7 +188,7 @@ Direct review of public Document 174-1 Exhibit 1 shows the email cover at PDF p.
 
 ## ERP-001 extension — EFTA00198769 and EFTA00198731 journal / withdrawal rows
 
-**EVD-040 / EFTA00198769:** extracted 2001-07-02 transaction row "JOURNAL TO PER LOA" debit $1,969,992.00. 59-page bundle; exact page locator pending. PER LOA uninterpreted; no contra-account, destination or external settlement established. https://epsteinsecrets.com/entities/1957681. Original PDF/page images not acquired; SHA-256 NOT_MEASURED.
+**EVD-040 / EFTA00198769:** extracted 2001-07-02 transaction row "JOURNAL TO PER LOA" debit $1,969,992.00. 59-page bundle; exact page locator pending. PER LOA uninterpreted; no contra-account, destination or external settlement established. https://epsteinexposed.com/documents/efta-efta00198769. Original PDF/page images not acquired; SHA-256 NOT_MEASURED.
 
 **EVD-041 / EFTA00198731:** 38-page bundle, extracted rows include Jan. 9 2002 $2.25m JOURNAL TO- PER WA; Jan. 9 and Apr. 3 $152,000 funds-withdrawn rows with OCR-corrupted "FND WIRED ... TO" text; Apr. 16 $1,862,962.04 JOURNAL TO PER plus $3.74 adjustment; Jul. 25 $10,547.70 deposit/journal pair with counterparty OCR-corrupted and PERIP M; Oct. 8 Candies Inc 1,197 receipt and Oct. 21 journal out of same CAND position to PER LOA. Source: https://efta.threats.watch/documents/EFTA00198731. Original PDF/page images not acquired; SHA-256 NOT_MEASURED.
 
