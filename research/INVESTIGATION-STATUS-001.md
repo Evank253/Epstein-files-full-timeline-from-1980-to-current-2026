@@ -105,3 +105,8 @@ Direct review of public Document 174-1 Exhibit 1 shows the Oct. 19 email at PDF 
 
 This is a JPMorgan spreadsheet copy attached to an internal email, not a native workbook or independent receiving-bank confirmation. Some entries are credits into the JPMorgan account, not outflows. Account numbers and other fields are redacted. The court's statement in Document 284-3 ¶178 that the workbook included twenty $100,000 payments is a separate claim; this register is a partial transcription and does not yet reconcile all twenty rows. Do not describe all entries as $100,000 or as external outflows. See updated JPM-TRANSACTION-TRACE-001.csv and corrected EVD-029/CLM-030.
 
+
+## High-value transaction leads added (2026-11-17)
+
+Added six additional rows to JPM-TRANSACTION-TRACE-001.csv. Highest priority is a May 29 2007 $12,976,977.85 Fedwire debit via Wachovia to Island Global Yachting Ltd; the reference field says purchase of an interest in American Yacht Harbor. This is a strong document lead for a specific asset/acquisition inquiry, not proof of title or completed settlement. Other rows include an Oct. 1 $2.5m book-transfer credit with National Financial Services LLC and originator Alan M. Dershowitz; a Sept. 26 $1m Mellon credit with Financial Trust Company as B/O and Epstein as beneficiary; Sept. 20 debits of $227,158.57 to Worth Builders of Palm Beach, $53,337.65 book transfer to JP Molyneux Studio Ltd and $74,155 to Maguire Group Inc. Added EVT-053, EVD-030, CLM-031 and graph references. All are spreadsheet-level leads; counterpart records and settlement remain unverified.
+
