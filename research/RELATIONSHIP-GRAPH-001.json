@@ -307,7 +307,7 @@
       "id": "PERSON-ARTHUR-MIDDLEMISS",
       "label": "Arthur Middlemiss",
       "type": "person",
-      "qualification": "AML officer role reported in 2023 party filing citing underlying Exhibit 125; original exhibit not acquired."
+      "qualification": "U.S. Virgin Islands Statement of Material Facts (S.D.N.Y. Document 246, July 26 2023) identifies him as Bear AML Officer responsible for responding to 2007 subpoena, citing sealed Exhibit 125 at JPM-SDNYLIT-00373076; underlying exhibit not acquired."
     }
   ],
   "edges": [
@@ -852,18 +852,6 @@
       "status": "litigation_citation_only",
       "event": "EVT-044",
       "interpretation": "Verify underlying Exhibit 125 and employment records."
-    },
-    {
-      "id": "REL-046",
-      "from": "ORG-BEAR-STEARNs-BROKERAGE",
-      "to": "PERSON-EPSTEIN",
-      "type": "limited_outbound_transfer_review_reported_in_civil_filing",
-      "evidence": [
-        "EVD-022"
-      ],
-      "status": "litigation_citation_only",
-      "event": "EVT-044",
-      "interpretation": "Reported targeted review of outgoing $1,000/$100,000 transfers only; original Bear report not acquired."
     }
   ]
 }
