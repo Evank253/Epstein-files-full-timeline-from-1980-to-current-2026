@@ -1,0 +1,74 @@
+# ERP-001 Receipt Bundle — Bear Stearns newly developed findings
+
+**Receipt bundle:** ERP-BEAR-STEARNs-001  
+**Created:** 2026-11-17  
+**Primary workstreams:** EP-WEALTH-001; EP-NETWORK-001  
+**Shared examination:** CSE-001  
+**Finding label:** NEWLY DEVELOPED FINDING — independent research lead. This label does not establish that DOJ/FBI never possessed or examined the same material. Novelty against the complete DOJ/FBI investigative record is NOT_ESTABLISHED.
+
+## SR-EPW-001 — EFTA00187050 parent production
+
+- Publisher/custodian: U.S. Department of Justice, Epstein Files Library.
+- Parent document: EFTA00187050, Dataset 9, 59 pages.
+- Original URL: https://www.justice.gov/epstein/files/DataSet%209/EFTA00187050.pdf
+- Discovery/index record: https://www.tommycarstensen.com/epstein/data/documents/set9/00187/EFTA00187050.html
+- Page under examination: 32 of 59; printed Bates identifier EFTA00187080.
+- Status: SOURCE-ACCESSED through extracted text/index; original PDF bytes and original page image not acquired/preserved in this update.
+- SHA-256 / bytes / MIME: NOT MEASURED / NOT MEASURED / NOT MEASURED.
+- Limitation: index warns extracted text may contain errors; inspect original page image.
+
+## XR-EPW-001 / EVD-018 — September 7 2007 production letter
+
+Extracted text of page 32 represents that Bear, Stearns & Co. Inc. sent a personnel file and CD containing statements for Epstein and six named accounts: Epstein Interests; Financial Trust Co. Inc.; Institutional Interests; Heritage Interests; International Charitable Interests; Health & Science Interests. It says additional statements would be forwarded if found.
+
+**Supports:** the firm's representation about what it supplied in response to a subpoena.
+
+**Does not support:** beneficial ownership; signatory authority; legal form of every account label; balances; transfers; completeness of production; actual CD contents; wrongdoing.
+
+Disposition: SOURCE-ACCESSED / ORIGINAL-ACQUISITION PENDING.
+
+## SR-EPW-002 / XR-EPW-002 / EVD-016 — subpoena identifier discrepancy
+
+- Secondary research attributes EFTA00186986 to an August 15 2007 subpoena addressed to the custodian of records for Bear Stearns Companies Inc.: https://epstein-data.com/wiki/entities/bear-stearns
+- Separately accessed extracted-text record: EFTA00193068: https://www.tommycarstensen.com/epstein/data/documents/set9/00193/EFTA00193068.html
+- EFTA00193068 text identifies the recipient as custodian of records for Bear Stearns Companies Inc.; grand jury matter FGJ 07-103(WPB)-Tues./No. OLY-71; subpoena date August 15 2007; return date September 4 2007; requests records concerning Epstein including account statements, employment, transactions, loans and payments.
+- Status: EFTA00193068 SOURCE-ACCESSED through hosted extracted text; original bytes/page image not acquired. EFTA00186986 is SECONDARY-SOURCE-LOCATED only; original content not examined.
+- Hashes: NOT MEASURED.
+- Required disposition: UNRESOLVED identifier relationship. Do not treat the two Bates identifiers as equivalent or as duplicates without original-document comparison.
+
+## SR-EPW-003 / XR-EPW-003 / EVD-017 — August 27 2007 correspondence
+
+- Document identifier: EFTA00189874.
+- Discovery/access record: https://epsteinexposed.com/documents/efta-efta00189874
+- Extracted text describes a letter attributed to the U.S. Attorney's Office asking a Bear Stearns contact to identify additional entities for which Epstein was CEO, COO, or sole owner/shareholder.
+- Status: SOURCE-ACCESSED through secondary hosted extraction; original DOJ bytes, attachments and Bear Stearns response not acquired.
+- Hashes: NOT MEASURED.
+- Interpretation: a request for information is not proof the firm verified the list or that each entity held an account.
+
+## Entity separation rule
+
+Keep these corporate names separate pending primary corporate records:
+1. Bear Stearns Companies Inc. — named as subpoena recipient in EFTA00193068 extracted text.
+2. Bear, Stearns & Co. Inc. — named on the September 7 production response letterhead.
+
+Do not infer which entity held, searched, controlled or produced a particular record beyond what the original documents establish.
+
+## Graph and timeline linkage
+
+- Timeline events: EVT-038 (Aug. 15 subpoena record); EVT-039 (Aug. 27 entity inquiry); EVT-040 (Sept. 7 production representation).
+- Claims: CLM-016 through CLM-018.
+- Evidence: EVD-016 through EVD-018.
+- Source artifacts: ART-017 through ART-020.
+- Relationship graph edges: REL-024 onward; each edge carries evidence and event IDs. Six account-name nodes are explicitly typed as account labels, not verified beneficial owners.
+
+## Outstanding work
+
+1. Acquire original EFTA00186986, EFTA00193068, EFTA00189874 and EFTA00187050 PDF bytes from DOJ where accessible.
+2. Preserve originals, record retrieval time, filename, MIME, byte size and compute SHA-256 from actual bytes.
+3. Inspect original page images and attachments; resolve page/Bates/document identity.
+4. Locate referenced CD and later statements/production correspondence.
+5. Reconcile the six account labels to legal entities, account agreements, trustees, signatories, beneficial owners and transaction records.
+6. Have CSE-001 independently search for corroborating and contradictory primary records.
+7. Compare these findings with DOJ/FBI investigative records before claiming they were previously unknown to investigators.
+
+No repository records claim original-file acquisition, hashes, independent corroboration, or completed DOJ/FBI novelty testing.
