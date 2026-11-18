@@ -452,6 +452,12 @@
       "label": "Island Global Yachting Facilities Ltd.",
       "type": "organization_reference",
       "qualification": "Named in 2014 revised draft settlement agreement as parent/party and counterparty to Epstein's May 29 2007 membership interest purchase agreement; draft execution status unresolved."
+    },
+    {
+      "id": "PERSON-JAMES-CAYNE",
+      "label": "James E. Cayne",
+      "type": "person",
+      "qualification": "Appears in the account-executive field on multiple International Charitable Interests statement pages within EFTA00200535; exact role, authority and relationship to account require original-page verification."
     }
   ],
   "edges": [
@@ -1364,6 +1370,61 @@
       "status": "audited_statement_extracted_text",
       "event": "EVT-055",
       "interpretation": "Audited statements say parent loan was partially converted to equity May 29 2007 and remainder converted to bank note Aug 23 2007; exact amounts and entries require general ledger."
+    },
+    {
+      "id": "REL-076",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "to": "ORG-BEAR-STEARNs-BROKERAGE",
+      "type": "brokerage_account_servicing_named_in_statement_headers",
+      "evidence": [
+        "EVD-035",
+        "EVD-036",
+        "EVD-037",
+        "EVD-038",
+        "EVD-039"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-056",
+      "interpretation": "Bear, Stearns & Co Inc is named as the servicing broker on the statement headers; account ownership and legal account holder remain unestablished."
+    },
+    {
+      "id": "REL-077",
+      "from": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "to": "ORG-FINANCIAL-TRUST-COMPANY",
+      "type": "trustee_designation_in_statement_header",
+      "evidence": [
+        "EVD-037",
+        "EVD-038",
+        "EVD-039"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-058",
+      "interpretation": "Financial Trust Co Inc appears as TTEE in account address blocks; fiduciary capacity, legal identity and beneficiaries require primary records."
+    },
+    {
+      "id": "REL-078",
+      "from": "PERSON-IRA-ZICHERMAN",
+      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "type": "account_executive_named_in_statement",
+      "evidence": [
+        "EVD-035",
+        "EVD-037"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-056",
+      "interpretation": "Ira Zicherman appears in account-executive field in extracted Bear statements; this does not establish discretionary authority or personal involvement in any transaction."
+    },
+    {
+      "id": "REL-079",
+      "from": "PERSON-JAMES-CAYNE",
+      "to": "ENTITY-INTERNATIONAL-CHARITABLE-INTERESTS",
+      "type": "account_executive_field_named_in_statement",
+      "evidence": [
+        "EVD-036"
+      ],
+      "status": "third_party_ocr_extract_preliminary",
+      "event": "EVT-057",
+      "interpretation": "James E. Cayne appears in the account-executive field on EFTA00200535 statement pages; the field's meaning, authority and exact dates require original page verification."
     }
   ]
 }
