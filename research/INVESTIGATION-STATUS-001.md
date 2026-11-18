@@ -117,3 +117,8 @@ The May 29 2007 $12,976,977.85 JPMorgan spreadsheet debit to Island Global Yacht
 
 EFTA00594382 separately records the Jan. 18 2007 acquisition of American Yacht Harbor by IGY-AYH from MOF VI Limited Partnership for stated purchase price $25.5m. Do not conflate the Jan. 18 marina acquisition with the May 29 purchase of a 50% membership interest in the holding company. Added EVT-054, EVD-031–033, CLM-032–034, ART-032–034 and graph relationships. Original PDF bytes/page images and hashes not acquired in this examination.
 
+
+## Additional audited capital-structure detail (2026-11-17)
+
+Further examination of EFTA00611194 notes 1, 4(c) and 5 identified the parent-financing structure. IGY-AYH St. Thomas Holdings LLC borrowed $25,271,765 from Island Global Yachting Ltd to purchase American Yacht Harbor; audited statements give aggregate acquisition price $25,238,326. The intercompany loan was partially converted to equity on May 29, 2007, with the remainder converted to a note payable to a bank on Aug. 23, 2007. The statements separately say a 50% passive member interest was sold to one parent investor on May 29. This adds a potential capital-structure bridge between the May 29 50% sale and the $12,976,977.85 JPMorgan wire, but does not prove the exact accounting treatment or amount. The wire should not be equated to the loan conversion or purchase price until the general ledger, loan instrument, capital contribution journal, membership ledger and bank settlement records are obtained. Added EVT-055, EVD-034 and CLM-035.
+
